@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>系统脱敏与专注力训练</title>
+      <link href="/2022/04/28/xi-tong-tuo-min-yu-zhuan-zhu-li-xun-lian/"/>
+      <url>/2022/04/28/xi-tong-tuo-min-yu-zhuan-zhu-li-xun-lian/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>系统脱敏训练</h1><ol><li>放松技巧（前臂，头面部，肩，背，胸，腹，下肢）</li><li>焦虑等级（0-100，级差均匀）</li><li>系统脱敏（最低级刺激事件或情景，紧张时停止想象，全身放松，平静后重复→下一等级）</li></ol><h1>专注力训练</h1><p>如何训练超强专注力？在《如何像爱因斯坦一样专注》中提到了12个专注训练法，每天坚持几次，连续17天会有明显提升。训练方法可分为四组。</p><h2 id="第一组">第一组</h2><p>1-1: 闭上眼睛想象一条两边都种了树的路，视线由近到远，一直到路的尽头，融为一个点。1-2: 想象一个孩子正在荡秋千，越荡越慢，直到停止。1-3: 想象一列火车离你远去，车尾有个大大的字母“i”，随着火车远去，“i”变成一个点。</p><h2 id="第二组">第二组</h2><p>2-1: 闭着眼，在脑海中假想分别用右手和左手各画一个“∞”的符号。2-2: 在脑海中假想用双手画螺旋，先顺时针再逆时针，然后两只手方向相反对着画。2-3: 闭着眼想象一朵花慢慢盛开的过程。</p><h2 id="第三组">第三组</h2><p>3-1找8个物品放桌上，从最后一个开始依次拿掉，然后再在脑海中再来一遍。3-2: 闭着眼想象你写数字1、2、3，然后从3开始依次擦掉。3-3: 想象你写单词“NEW YORK”，然后从“K”开始依次擦掉。</p><h2 id="第四组">第四组</h2><p>4-1: 闭眼深呼吸10次，感受气流在你的喉咙和肺里流进流出。4-2: 闭眼深呼吸10次，随着每次吸气呼气数数到20。4-3: 闭眼慢慢呼吸10次，专注呼吸什么都不想。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 心理学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 心理学 </tag>
+            
+            <tag> 焦虑 </tag>
+            
+            <tag> 专注力 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java学习笔记-3</title>
+      <link href="/2022/04/27/java-xue-xi-bi-ji-3/"/>
+      <url>/2022/04/27/java-xue-xi-bi-ji-3/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>基础</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java学习笔记-2</title>
+      <link href="/2022/04/27/java-xue-xi-bi-ji-2/"/>
+      <url>/2022/04/27/java-xue-xi-bi-ji-2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>入门</h1><h2 id="Java帝国的诞生">Java帝国的诞生</h2><p>C语言（1972）、C++语言（1982）、Java（1995）。服务器端（J2EE）。</p><h2 id="Java特性和优势">Java特性和优势</h2><p>简单性、面向对象、可移植性、高性能、分布式、动态性、多线程、安全性、健壮性。</p><h2 id="Java三大版本">Java三大版本</h2><p>标准版（JavaSE）、嵌入式开发（JavaME）、企业级开发（JavaEE）。</p><h1>JDK、JRE和JVM</h1><h2 id="安装开发环境">安装开发环境</h2><ol><li><p>JDK下载与安装。</p></li><li><p>配置环境变量（学习）：系统变量添加JAVA_HOME，配。置path变量%JAVA_HOME%\bin，%JAVA_HOME%\jre\bin。（Win7好像不太一样）</p></li><li><p>Notepad++软件。</p></li></ol><h2 id="HelloWorld详解">HelloWorld详解</h2><p>命令java和javac。</p><h2 id="编译型和解释型">编译型和解释型</h2><p>时机不同。Java二者都有，先编译，再解释。</p><h2 id="使用IDEA开发">使用IDEA开发</h2><p>集成开发环境。</p><p>官网：<a href="https://www.jetbrains.com/">JetBrain官网</a></p><p>快捷键：psvm和sout。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java学习笔记-1</title>
+      <link href="/2022/04/27/java-xue-xi-bi-ji-1/"/>
+      <url>/2022/04/27/java-xue-xi-bi-ji-1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>预科</h1><ol><li>学习方式：写博客（博客园）→已注册。</li><li>Markdown语法：会。</li><li>基本的DOS命令：</li></ol><ul><li>打开CMD：开始+系统+命令提示符</li><li>win+r</li><li>任意文件夹：shift+右键</li><li>资源管理器的地址栏：CMD 路径</li><li>管理员运行</li><li>常用的DOS命令：盘符:，回车；dir当前目录下的所有文件；cd切换目录；cd /d f:；cd…；cd 目录；cls清理屏幕；exit；ipconfig；calc打开计算器；mspaint；notepad；ping；md创建文件夹；cd&gt;a.txt创建文件；del删除文件；rd删除文件夹；</li></ul><ol start="4"><li>计算机，硬件及冯诺依曼结构，软件及软件开发。</li><li>计算机语言发展史。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java学习笔记-0</title>
+      <link href="/2022/04/27/java-xue-xi-bi-ji-0/"/>
+      <url>/2022/04/27/java-xue-xi-bi-ji-0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr><p>该教程的学习笔记来自B站【狂神说Java系列】。链接地址：<a href="https://www.bilibili.com/video/BV12J41137hu?p=1">狂神说Java</a></p><hr><h1>前言</h1><ol><li>贵在坚持。</li><li>Java和Python的选择：Java是C/C++体系，面向程序员；Python多面向非程序员;纠结是个坏毛病。</li><li>Java手机程序，桌面游戏（少，C++）,大数据分析平台。</li><li>学习路线：遇见狂神说-学习路线→JavaSE，数据库，前端，JavaWeb，SSM框架，Linux，SpringBoot，SpringCloud，Hadoop。</li><li>多写（代码，笔记，文章），多练（交流，思维，技能），多分享（知识），多提问（怎么了），多思考（为什么），最重要（坚持）。</li><li>关于教育和期望。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>勒特·拉乌如是说</title>
+      <link href="/2022/04/26/le-te-la-wu-ru-shi-shuo/"/>
+      <url>/2022/04/26/le-te-la-wu-ru-shi-shuo/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>能梦到你是我的过人之处。——费尔南多·佩索阿《不安之书》</p></blockquote><hr><p>待更新…</p><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+            <tag> 杂感 </tag>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>环境变量</title>
+      <link href="/2022/04/25/huan-jing-bian-liang/"/>
+      <url>/2022/04/25/huan-jing-bian-liang/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>环境变量</h1><p>一直对“环境变量”的概念比较模糊，具体学习一下关于环境变量的东西。以下是一些基础的东西。具体的东西百度/Google。</p><p><code>%systemroot%</code>，系统环境变量之一，指明系统总（根）目录在哪，其中<code>%NAME%</code>符号相当于取<code>NAME</code>所代表的路径。</p><p>百度百科定义：<a href="https://baike.baidu.com/item/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/1730949?fr=aladdin" title="环境变量">环境变量</a>：</p><blockquote><p>环境变量是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用程序所将使用到的信息。(这不是人话！)</p></blockquote><p>**环境变量：**其主要作用就是指明操作系统的重要目录在哪。</p><p><strong>在哪：</strong>win7：计算机-右键-属性-高级系统设置-环境变量。win10：设置直接搜索。</p><p>**和编程息息相关的环境变量：**pathwin+r，运行，输入命令，系统通过path指定的路径去寻找相关的命令，找到就运行，找不到就报错。比如cmd命令在<code>system32</code>文件夹，环境变量的path包括了该路径，则系统可以找到cmd命令并运行。如果需要运行自己的命令，一是可以将其放到path中的路径下，比如放到<code>system32</code>下，二是将程序所在路径添加到path路径当中。</p><p>**用户变量：**针对当前登录的用户。</p><p>视频教程地址：<a href="https://www.bilibili.com/video/BV1w741147G9?spm_id_from=..search-card.all.click" title="『教程』什么是环境变量">『教程』什么是环境变量</a><a href="https://www.bilibili.com/video/BV1nS4y1o7LG?spm_id_from=..search-card.all.click" title="配置环境变量是怎么个意思？">配置环境变量是怎么个意思？</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>阅读书目</title>
+      <link href="/2022/04/25/yue-du-shu-mu/"/>
+      <url>/2022/04/25/yue-du-shu-mu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>当我沉默着的时候，我觉得充实；我将开口，同时感到空虚。——鲁迅《野草·题辞》</p></blockquote><h1>推荐数目</h1><ol><li>《一生的读书计划》（克里夫顿·费迪曼）</li><li>《如何阅读一本书》（莫提默·J. 艾德勒、查尔斯·范多伦）</li></ol><h1>我读过的书</h1><ol><li>《局外人》（阿贝尔·加缪）</li><li>《南渡北归》（三部曲）（岳南）</li><li>《聊斋志异》（蒲松龄）</li><li>余华：《在细雨中呼喊》、《活着》、《许三观卖血记》、《兄弟》、《文城》、《第七天》</li><li>《时间简史》（霍金）</li><li>《鲁滨逊漂流记》（丹尼尔·笛福）</li><li>《希腊神话故事》（古斯塔夫·施瓦布）</li><li>《从一到无穷大》（George Gamow）</li><li>《日本妖怪奇谭》（王新禧）</li><li>《数学之美》（吴军）</li><li>《公式之美》（量子学派）</li><li>《中国哲学简史》（冯友兰）</li><li>《中国神话史》（袁珂）</li><li>《朝花夕拾》（鲁迅）</li><li>《诗词赏析七讲》（周啸天）</li><li>《西西弗神话》（阿贝尔·加缪）</li><li>《薛西福斯的神话》（阿贝尔·加缪，商州出版）</li><li>《小王子》（圣埃克絮佩里）</li><li>《爱德华的奇妙之旅》（凯特·迪卡米洛）</li><li>《明朝那些事儿》（当年明月）</li><li>《三体三部曲》（刘慈欣）</li><li>《唐朝穿越指南》（森林鹿）</li><li>《沉思录》（马可·奥勒留）</li><li>《不安之书》（费尔南多·佩索阿）</li><li>…</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+            <tag> 闲书 </tag>
+            
+            <tag> 书单 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>王小波《一只特立独行的猪》摘录</title>
+      <link href="/2022/04/24/wang-xiao-bo-yi-zhi-te-li-du-xing-de-zhu-zhai-lu/"/>
+      <url>/2022/04/24/wang-xiao-bo-yi-zhi-te-li-du-xing-de-zhu-zhai-lu/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>时间：2022-04-23-19:20:04</p><blockquote><p>我昨青鸾背上行,…。不须文字传言语,…。——龚自珍【清】</p></blockquote><hr><h1>《一只特立独行的猪》</h1><ol><li>对生活做种种设置是人特有的品性。</li><li>我已经四十岁了，除了这只猪，还没见过谁敢于如此无视对生活的设置。相反，我倒见过很多想要设置别人生活的人，还有对被设置的生活安之若素的人。</li></ol><hr><h1>《我为什么要写作》</h1><ol><li>有人问一位登山家为什么要去登山——谁都知道登山这件事既危险，又没什么实际的好处，他回答道：“因为那座山峰在那里。”</li><li>屋内饮酒，门外劝水。</li><li>大家都顺着一个自然的方向往下溜，最后准会在个低洼的地方汇齐，挤在一起像粪缸里的蛆。</li></ol><hr><h1>《我的师承》</h1><ol><li>王道乾先生译的《情人》：我已经老了。有一天，在一处公共场所的大厅里，有一个男人向我走来，他主动介绍自己，他对我说：“我认识你，我永远记得你。那时候，你还很年轻，人人都说你美，现在，我是特为来告诉你，对我来说，我觉得现在你比年轻的时候更美，那时你是年轻女人，与你那时的面貌相比，我更爱你现在备受摧残的面容。</li><li>孟子曾说，无耻之耻，无耻矣。</li><li>末流的作品有一流的名声，一流的作品却默默无闻。</li><li>只按名声来理解文学，就会不知道什么是坏，什么是好。</li></ol><hr><h1>《用一生来学习艺术》</h1><ol><li>文字是用来读的，不是用来看的。</li><li>人活在世上，不必什么都知道，只知道最好的就够了。</li></ol><hr><h1>《小说的艺术》</h1><ol><li>昆德拉说：不懂开心的人不会懂得任何小说艺术。</li><li>我想像一般的读者并非如此，他们只是对文化生活有种泛泛的爱好。</li><li>任何一门艺术只有从作品里才能看到——套昆德拉的话说，只喜欢看杂文、看评论、看简介的人，是不会懂得任何一种艺术的。</li></ol><hr><h1>《摆脱童稚状态》</h1><ol><li>在此我毫不谦虚他说，我是个高层次的读者，可是书刊检查却拿我当十六岁的孩子看待。</li><li>有人会争辩说，孩子是我们的未来，应该为他们做牺牲。但是现在的问题是牺牲的代价是让成人也变成孩子。这样做的结果是我们根本就不会有什么未来。</li><li>而正如孙隆基在《中国文化的深层结构》里指出的，目前中国人面对的知识环境是一种童稚状态，处于弗洛伊德所说的gm时期。</li><li>也许，因为种种原因，特别是历史原因，我们眼下还不能不有一些童稚的做法。那么，下一步怎么办?一种做法是继续保持童稚状态，一种做法是摆脱童稚状态，准备长大。相信前一种做法的人，也相信乔治·奥威尔在《1984》里杜撰的口号——无知即力量;相信后一种做法的人，也相信培根的名言——知识就是力量。这“下一步”当然不是把日历翻过去就是的明天，但是，也不应当是日历永远翻不到的明天。</li></ol><hr><h1>《李银河的&lt;中国人的ooxx与婚姻&gt;》</h1><ol><li>也希望读者对于除自己所持的观念，所处的文化之外，别人的观念和文化也有所了解。</li></ol><hr><h1>《李银河的&lt;生育与中国村落文化&gt;》</h1><ol><li>传统文化的本质，来自于村落。</li><li>有人说，外国文化是罪感文化，中国文化是耻感文化。这个感觉相当犀利，但只是感觉而已。罪感当然来自上帝，假如你信他，就会觉得在他面前是个罪人。但是假如你不觉得有好多人在盯着你，耻感何来呢?如果没有信息共有，耻感文化也无法解释了。</li><li>村落文化是一种强制的力量，个人意志不是它的对手。</li><li>李银河认为，传统观念、宗族意识等等，在现在农村里也是存在的，但是你不能理解为它们保存在个人的头脑里。实际上，它们是保留在村落文化这个半封闭的大匣子里。这也是个有意义的结论。我们知道，在苏格兰有个半封闭的尼斯湖，湖里还有恐龙哪。在中国村落里保存了一些文化恐龙，也不算什么新鲜的事。</li><li>你怎么挣钱，别人不管;但你怎么过日子，大伙就要说话了。在这种情况下，日子当然难有崭新的过法。</li><li>罗素大师曾言：不要以为有了实证方法，思辨就不重要了。</li><li>不管怎么说，自己觉得好和别人说你好毕竟是两回事，不是一回事。</li></ol><hr><h1>《关于txl的问题》</h1><ol><li>有一个形容缺德行为的顺口溜：打聋子骂哑巴扒绝户坟——现在可以给它加上一句：敲诈txl。</li></ol><hr><h1>《有关txl的伦理问题》</h1><ol><li>假定有个人爱一个tx，那个人又爱他，那么此二人之间发生<em>关系，简直就是不可避免的。不可避免、又不伤害别人的事，谈不上不道德。有些txl伴侣也会有很深、很长久的关系，假如他们想要ml的话，我想不出有什么理由要反对他们。我总觉得长期、固定、有感情的</em>关系应该得到尊重。这和尊重婚姻是一个道理。</li><li>至于txl者，我希望他们对生活能取一种正面的态度，既能对自己负责，也能对社会负责。</li></ol><hr><h1>《他们的世界》跋</h1><ol><li>社会视力缺陷。</li></ol><hr><h1>《不新的&lt;万历十五年&gt;》</h1><ol><li>善良要建立在真实的基础上，所以让我去选择道德的根基，我愿选实事求是。</li><li>老百姓说：罐子里养王八，养也养不大。</li></ol><hr><h1>《我怎样做青年的思想工作》</h1><ol><li>不错，痛苦是艺术的源泉;但也不必是你的痛苦……别人的痛苦才是你艺术的源泉;而你去受苦，只会成为别人的艺术源泉。</li></ol><hr><h1>《&lt;红拂夜奔&gt;序》</h1><ol><li>我以为有趣像一个历史阶段，正在被超越。</li><li>有趣被超越之后，就会变成庄严滞重。</li></ol><hr><h1>《&lt;寻找无双&gt;序》</h1><ol><li>思维的快乐则是人生乐趣中最重要的一种。</li></ol><hr><h1>《&lt;怀疑三部曲&gt;序》</h1><ol><li>有位希腊名医说：这个人的美酒佳肴，就是那个人的穿肠毒药。</li><li>坦白不光是浅薄，而且是勇气。</li></ol><hr><h1>《关于文体》</h1><ol><li>我们还知道西施有心绞痛并因此更加可爱，心绞痛也该可以形成一种文体。以此类推，更可爱的文体应该是：“拿硝酸甘油来!”但这种可爱我们消受不了。我们已经有了一些医学知识，知道心绞痛随时有可能变成心肌梗塞，塞住了未必还能活着。大美人随时可能死得直翘翘，也就不可爱了。</li></ol><hr><h1>《关于幽闭型小说》</h1><ol><li>实际上，中国的旧式家庭，对女人来说也是一条海船，而且永远也靠不了码头。你要是烦得不行，就只有跳海一途。</li><li>人生唯一的不幸就是自己的无能。</li><li>由此就得出这样的结论，要努力去做事，拼命地想问题，这才是自己的救星。</li></ol><hr><h1>《文明与反讽》</h1><ol><li>任何一个文明都该容许反讽的存在，这是一种解毒剂，可以防止人把事情干到没滋没味的程度。</li></ol><hr><h1>《海明威的&lt;老人与海&gt;》</h1><ol><li>我不相信人会有所谓的“命运”，但是我相信对于任何人来说，“限度”总是存在的。</li><li>但是，那些与命运斗争的人，那些做接近自己限度的斗争的人，却天生地接近这种失败。</li><li>在人生的道路上，“失败”这个词还有另外的含义，即是指人失去了继续斗争的信心，放下了手中的武器。</li><li>胜利就是战斗到最后的时刻。</li><li>他和其他许多人一样，是强悍的人类的一员。我喜欢这样的人，也喜欢这样的人性。我发现，人们常常把这样的事情当作人性最可贵的表露：七尺男子汉坐在厨房里和三姑六婆磨嘴皮子，或者衣装笔挺的男女们坐在海滨，谈论着高尚的、别人不能理解的感情。我不喜欢人们像这样沉溺在人性软弱的部分之中，更不喜欢人们总是这样描写人性。</li><li>正像老人每天走向大海一样，很多人每天也走向与他们的限度斗争的战场，仿佛他们要与命运一比高低似的。他们是人中的强者。</li></ol><hr><h1>《掩卷：&lt;鱼王&gt;读后》</h1><ol><li>冷与热有同等的魅力，离群索居与过原始生活有同等的魅力，空旷无际与密集生长有同等的魅力。如汤因比所云，我们生活在阳的时期。在史前阴的时期，人类散居于地球上，据有空间，也向空间学习。杀戮生命，也向生命学习。如今我们拥挤在一起，周围的生命除了人，就是可食的肉类。也许这真的值得惋惜。</li><li>拿破仑曾云：世间一切书中，我偏爱以血写成者。</li></ol><hr><h1>《萧伯纳的&lt;巴巴拉少校&gt;》</h1><ol start="3"><li>真的，论起明辨是非，儿童仿佛比成人强，无知的人仿佛比聪明的强。这真的是个有趣的现象。</li></ol><hr><h1>《血统》</h1><ol><li>一筐烂桃里挑不出几个好的来。</li><li>人生在世应当努力，应该善良，而血统这种说法对于培养这些优良品质毫无帮助。</li></ol><hr><h1>《我是哪一种女权主义者》</h1><ol><li>我承认男人和女人很不同，但这种差异并不意味着别的：既不意味着某个性别的人比另一种性别的人优越，也不意味着某种性别的人比另一种性别的人高明。一个女孩子来到人世间，应该像男孩一样，有权利寻求她所要的一切。假如她所得到的正是她所要的，那就是最好的——假如我是她的父亲，我也别无所求了。</li></ol><hr><h1>《男人眼中的nxm》</h1><ol><li>孟夫子就喜欢用“目之于色也有同美焉”这个例子来说明大家可以有一致的意见，很显然，他觉得这样一说大家就会明白。</li></ol><hr><h1>《对待知识的态度》</h1><ol><li>知识另有一种作用，它可以使你生活在过去、未来和现在，使你的生活变得更充实、更有趣。这其中另有一种境界，非无知的人可解。不管有没有直接的好处，都应该学习——持这种态度来求知更可取。</li><li>罗素曾经说：对于人来说，不加检点的生活，确实不值得一过。</li></ol><hr><h1>《有与无》</h1><ol><li>这是因为村里每个成年人惦记的都是一模一样的事情：给自己修座椅子坟就是其中比较有趣的一件。至于为什么要这样生活，他们也说不出。</li><li>做爱做的事才是“有”，做自己也不知为什么要做的事则是“无”。</li></ol><hr><h1>《域外杂谈·盗贼》</h1><ol><li>现在我想，人活在世界上有两大义务，一是好好做人，无愧于人生一世。这一条我还差得远。另一条是不能惯着别人的臭毛病，这一条我差得更远。这一条我们都差得太远了。</li></ol><hr><h1>《工作与人生》</h1><ol><li>人从工作中可以得到乐趣，这是一种巨大的好处。</li><li>人活在世上，不但有身体，还有头脑和心胸。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+            <tag> 摘要 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍节造词</title>
+      <link href="/2022/04/24/cang-jie-zao-ci/"/>
+      <url>/2022/04/24/cang-jie-zao-ci/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>生活就像大便💩干燥，你使点劲，过后就舒服了。——佚名</p></blockquote><hr><p>古有仓颉造字，今有苍节造词，为啥是苍节？因为它们都是草字头，生草！</p><hr><p>生草含义：<a href="https://jikipedia.com/search?phrase=%E7%94%9F%E8%8D%89">小鸡词典-生草</a></p><hr><h1>躺然</h1><p>对应坦然，坦是tan（三声），躺是tang（也是三声），而g代表重力加速度，其值为g=9.8N/kg，于是在重力的左右下，人不堪其负，就从坦然变成躺然了。而人在躺下的时候，还要说声“草”，草是cao（还是三声）。所以要唱：“……没有花香/没有树高/我是一棵无人知道的小草/从不寂寞/从不烦恼/你看我的伙伴遍及天涯海角……”。</p><hr><h1>fast give</h1><p>我觉得快递翻译成英语应该叫fast give，而不是express。快递不就是快给，快送吗？FG，FG，……，法国，就跟二战法国一样，投降快，迅速白给，从这方面来说fast give的寓意也挺不错的。快递公司名字就叫“法国速递（France Fast Give，FFG）”。［手动法式军礼］</p><hr><h1>艺生菌</h1><p>网络流行语，把艺术细胞说成艺术细菌之类的，当然是搞笑调侃的说法。可自己真的没有艺术细胞怎么办？那可以培养你的艺术细菌啊！怎么培养？让自己发霉！于是就有了艺术了。这种为了追求艺术而得到的细菌，我们就叫它艺生菌吧。</p><hr><h1>耽想师</h1><p>耽想，就是耽于幻想，意即沉溺于幻想。加个师，听起来像是一种职业。可以直接理解为，使人沉溺于幻想中的那个人。现实中有没有？有的人可能自己就是，而这个世界说不定就是处在其中。</p><hr><h1>待续</h1><p>…</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 脑洞 </tag>
+            
+            <tag> 无厘头 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown入门教程</title>
+      <link href="/2022/04/24/markdown-ru-men-jiao-cheng/"/>
+      <url>/2022/04/24/markdown-ru-men-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><span id="more"></span><blockquote><p>好奇心是学习者的第一美德。——居里夫人</p></blockquote><h1>Markdown语法学习</h1><h2 id="一、-Markdown简介">一、 Markdown简介</h2><p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。Markdown具有轻量化、可读性等特点，同时支持图表、数学公式等，目前许多网站都支持Markdown，比如CSDN、简书、知乎、GitHub等等<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[百度百科](https://baike.baidu.com/item/markdown/3245829?fr=aladdin)">[1]</span></a></sup>。Markdown有许多变种，除了最基本的功能外，有的会添加其他扩展功能，比如画流程图、甘特图等等，所以要注意有的语法不通用。除了常见的支持Markdown的网站外，也有许多Markdown编辑器，这里列举几个我知道的且使用体验较好的，可以免费使用的：</p><ul><li><a href="https://joplinapp.org/">Joplin</a></li><li><a href="https://github.com/tamlok/vnote">VNote</a></li><li><a href="https://www.zettlr.com/">Zettlr</a></li><li><a href="https://typora.io/">Typora</a></li></ul><p>其他的编辑器可参考<a href="https://baike.baidu.com/">百度百科</a>或<a href="https://zh.wikipedia.org/zh-cn">维基百科</a>。</p><h2 id="二、-Markdown基本语法">二、 Markdown基本语法</h2><h3 id="2-1-注释">2.1 注释</h3><ul><li>代码法</li></ul><pre class=" language-language-html"><code class="language-language-html"><div style='display: none'>该注释不会显示。</div></code></pre><ul><li>html注释</li></ul><pre class=" language-language-html"><code class="language-language-html"><!--单行注释不会显示。--><!--多行注释，不会在显示。--></code></pre><ul><li>hack方法根据Markdown的解析原理来注释，比较稳定，但语义化差。</li></ul><pre class=" language-language-html"><code class="language-language-html">[//]: # (哈哈我是最强注释，不会在浏览器中显示。)[^_^]: # (哈哈我是最萌注释，不会在浏览器中显示。)[//]: <> (哈哈我是注释，不会在浏览器中显示。)[comment]: <> (哈哈我是注释，不会在浏览器中显示。)</code></pre><h3 id="2-2-标题和列表">2.2 标题和列表</h3><ul><li>标题</li></ul><pre class=" language-language-html"><code class="language-language-html"># 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题</code></pre><p>列表分为有序列表和无序列表，另外还有任务列表。</p><p><strong>无序列表：</strong></p><pre class=" language-language-html"><code class="language-language-html">- 无序列表1- 无序列表2</code></pre><p>效果：</p><ul><li>无序列表1</li><li>无序列表2</li></ul><p><strong>有序列表：</strong></p><pre class=" language-language-html"><code class="language-language-html">1. 有序列表12. 有序列表2</code></pre><p>效果：</p><ol><li>有序列表1</li><li>有序列表2</li></ol><p><strong>任务列表：</strong></p><pre class=" language-language-html"><code class="language-language-html">- [ ] 任务一 未做任务 `- + 空格 + [ ]`- [x] 任务二 已做任务 `- + 空格 + [x]`</code></pre><p>效果：</p><ul><li>[ ] 任务一 未做任务 <code>- + 空格 + [ ]</code></li><li>[x] 任务二 已做任务 <code>- + 空格 + [x]</code></li></ul><h3 id="2-3-字体改变">2.3 字体改变</h3><pre class=" language-language-html"><code class="language-language-html">*斜体*或_斜体_**粗体*****加粗斜体***~~删除线~~++下划线++==背景高亮==</code></pre><p>效果：</p><p><em>斜体</em>或_斜体_</p><p><strong>粗体</strong></p><p><em><strong>加粗斜体</strong></em></p><p><s>删除线</s></p><p><ins>下划线</ins></p><p><mark>背景高亮</mark></p><h3 id="2-4-超链接">2.4 超链接</h3><pre class=" language-language-html"><code class="language-language-html">[链接名称](链接地址)</code></pre><p>效果：</p><p><a href="https://zh.wikipedia.org/zh-cn">维基百科</a></p><h3 id="2-5-注脚">2.5 注脚</h3><p>在需要添加注脚的文字后加上脚注名字<code>[^注脚名字]</code>,称为加注。 然后在文本的任意位置(一般在最后)添加脚注，脚注前必须有对应的脚注名字。</p><h3 id="2-6-插入图像">2.6 插入图像</h3><pre class=" language-language-html"><code class="language-language-html">![图片Alt](图片地址 "图片Title")</code></pre><h3 id="2-7-引用">2.7 引用</h3><pre class=" language-language-html"><code class="language-language-html">> 引用内容  > > 支持多级引用</code></pre><p>效果：</p><blockquote><p>这里是需要引用的内容。</p></blockquote><h3 id="2-8-表格">2.8 表格</h3><p>第一行为表头，第二行分隔表头和主体部分，第三行开始每一行为一个表格行。列于列之间用管道符|隔开。原生方式的表格每一行的两边也要有管道符。第二行还可以为不同的列指定对齐方向。默认为左对齐，在-右边加上:就右对齐。<code>-</code>左对齐，<code>:-:</code> 中心对齐，<code>-:</code> 右对齐。</p><pre class=" language-language-html"><code class="language-language-html">|学号|姓名|序号||-|-|-||小明明|男|5||小红|女|79||小陆|男|192|</code></pre><p>效果：</p><table><thead><tr><th>学号</th><th>姓名</th><th>序号</th></tr></thead><tbody><tr><td>小明明</td><td>男</td><td>5</td></tr><tr><td>小红</td><td>女</td><td>79</td></tr><tr><td>小陆</td><td>男</td><td>192</td></tr></tbody></table><h3 id="2-9-分隔线">2.9 分隔线</h3><pre class=" language-language-html"><code class="language-language-html">* * *********- - ------------</code></pre><p>效果：</p><hr><h3 id="2-10-数学公式">2.10 数学公式</h3><ul><li>行间公式</li></ul><pre class=" language-language-html"><code class="language-language-html">$$E=mc^2\$\$# 注意：这里语法有问题，后面的$要加\进行转义，暂时没有找到原因和解决办法。# 能用就行，要个屁的自行车！# 2022年4月26日20:03:38，问题修复！语法：$$E=mc^2$$</code></pre><img src="/2022/04/24/markdown-ru-men-jiao-cheng/B23D41.jpg" class="" title="HJ"><p>效果：</p><p>$$E=mc^2 $$$$X=U\Sigma V^{T}$$</p><ul><li>行内公式</li></ul><pre class=" language-language-html"><code class="language-language-html">$E=mc^2$</code></pre><p>效果：$E=mc^2$</p><p>😂Markdown还有许多其他语法，可参考其他网上教程<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Markdown语法大全(超级版)](https://www.jianshu.com/p/ebe52d2d468f)">[2]</span></a></sup>。</p><hr><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin">百度百科</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.jianshu.com/p/ebe52d2d468f">Markdown语法大全(超级版)</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 入门教程 </tag>
+            
+            <tag> 文档编辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
