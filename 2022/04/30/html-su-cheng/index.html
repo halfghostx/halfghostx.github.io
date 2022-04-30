@@ -30,7 +30,7 @@
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="HalfGhostX猫" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><script src="/js/prism.js"></script></head>
 
 
 
@@ -574,14 +574,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    784
+                    1.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    9 分
                 </div>
                 
 
@@ -595,6 +595,9 @@
         </div>
         <hr class="clearfix">
 
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
         
 
         
@@ -628,18 +631,17 @@
 <ul>
 <li>基本结构</li>
 </ul>
-<pre class=" language-language-html"><code class="language-language-html"><!DOCTYPE html># 用于解释文档的类型
-<html>
-<head>
-    <title>This is a page</title>
-</head>
-<body>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph</p>
-    <p>This is paragraph</p>
-</body>
-</html>
-</code></pre>
+<pre class="language-html" data-language="html"><code class="language-html">&lt;!DOCTYPE html&gt;# 用于解释文档的类型
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;This is a page&lt;&#x2F;title&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+    &lt;h1&gt;This is a heading&lt;&#x2F;h1&gt;
+    &lt;p&gt;This is a paragraph&lt;&#x2F;p&gt;
+    &lt;p&gt;This is paragraph&lt;&#x2F;p&gt;
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</code></pre>
 <p><strong>注</strong>：VScode快捷键，<code>alt+shift+Down Arrow</code>快速复制当前行。</p>
 <ul>
 <li>注释：<code>&lt;!-- Heading --&gt;</code>。</li>
@@ -662,8 +664,7 @@
 </ul>
 <p>比如<code>&lt;a&gt;,&lt;img&gt;,&lt;em&gt;,&lt;strong&gt;</code>。</p>
 <h3 id="a-a"><code>&lt;a&gt;&lt;/a&gt;</code></h3>
-<pre class=" language-language-html"><code class="language-language-html"><a target="_blank" rel="noopener" href="https://google.com">Lorem</a>
-</code></pre>
+<pre class="language-html" data-language="html"><code class="language-html">&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;google.com&quot;&gt;Lorem&lt;&#x2F;a&gt;</code></pre>
 <ul>
 <li>attribute的概念，属性。全局，局部。被写在起始的Tag上。</li>
 </ul>
@@ -671,32 +672,30 @@
 <p><strong>注</strong>：多个属性用空格隔开；<code>target=&quot;_blank&quot;</code>属性。</p>
 <p>快捷键：<code>ctrl+/</code>插入注释。</p>
 <h3 id="列表">列表</h3>
-<pre class=" language-language-html"><code class="language-language-html"><ul># 无序列表
-    <li></li># 列表内容list item
-<ul>
+<pre class="language-html" data-language="html"><code class="language-html">&lt;ul&gt;# 无序列表
+    &lt;li&gt;&lt;&#x2F;li&gt;# 列表内容list item
+&lt;ul&gt;
 
-<ol># 有序列表
-    <li></li># 列表内容list item
-<ol>
-</code></pre>
+&lt;ol&gt;# 有序列表
+    &lt;li&gt;&lt;&#x2F;li&gt;# 列表内容list item
+&lt;ol&gt;</code></pre>
 <h3 id="表格">表格</h3>
-<pre class=" language-language-html"><code class="language-language-html"><table>
-    <thead>
-        <tr>
-            <th></th>
-        </tr>
-    </thead>
+<pre class="language-html" data-language="html"><code class="language-html">&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;&lt;&#x2F;th&gt;
+        &lt;&#x2F;tr&gt;
+    &lt;&#x2F;thead&gt;
     
-    <tbody>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-    </tbody>
-</table>
-</code></pre>
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th&gt;&lt;&#x2F;th&gt;
+            &lt;th&gt;&lt;&#x2F;th&gt;
+            &lt;th&gt;&lt;&#x2F;th&gt;
+            &lt;th&gt;&lt;&#x2F;th&gt;
+        &lt;&#x2F;tr&gt;
+    &lt;&#x2F;tbody&gt;
+&lt;&#x2F;table&gt;</code></pre>
 <p>上述结果很难看，因为没有用CSS去修饰。</p>
 <h3 id="表单">表单</h3>
 <p>Forms。</p>
@@ -704,142 +703,139 @@
 <li><code>&lt;br&gt;</code>line breaker。</li>
 <li><code>&lt;hr&gt;</code>horizontal line。</li>
 </ul>
-<pre class=" language-language-html"><code class="language-language-html"><!-- Forms -->
-        <form action="form.js" method="POST">
-            <div>
-                <label>First Name</label>
-                <input type="text" name="firstname" placeholder="Enter First Name">
-            </div>
-            <div>
-                <label>Last Name</label>
-                <input type="text" name="lastname" placeholder="Enter Last Name">
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" name="email" placeholder="Enter Email">
-            </div>
-            <!-- Submit -->
-            <input type="submit" name="submit" value="Submit">
+<pre class="language-html" data-language="html"><code class="language-html">&lt;!-- Forms --&gt;
+        &lt;form action&#x3D;&quot;form.js&quot; method&#x3D;&quot;POST&quot;&gt;
+            &lt;div&gt;
+                &lt;label&gt;First Name&lt;&#x2F;label&gt;
+                &lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;firstname&quot; placeholder&#x3D;&quot;Enter First Name&quot;&gt;
+            &lt;&#x2F;div&gt;
+            &lt;div&gt;
+                &lt;label&gt;Last Name&lt;&#x2F;label&gt;
+                &lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;lastname&quot; placeholder&#x3D;&quot;Enter Last Name&quot;&gt;
+            &lt;&#x2F;div&gt;
+            &lt;div&gt;
+                &lt;label&gt;Email&lt;&#x2F;label&gt;
+                &lt;input type&#x3D;&quot;email&quot; name&#x3D;&quot;email&quot; placeholder&#x3D;&quot;Enter Email&quot;&gt;
+            &lt;&#x2F;div&gt;
+            &lt;!-- Submit --&gt;
+            &lt;input type&#x3D;&quot;submit&quot; name&#x3D;&quot;submit&quot; value&#x3D;&quot;Submit&quot;&gt;
 
-            <div style="margin-top: 1000px;"></div>
-        </form>
-</code></pre>
+            &lt;div style&#x3D;&quot;margin-top: 1000px;&quot;&gt;&lt;&#x2F;div&gt;
+        &lt;&#x2F;form&gt;</code></pre>
 <p>按钮：<code>&lt;button&gt;This is a Button&lt;/button&gt;</code>。</p>
 <p>图片：<code>&lt;img style=&quot;width:100vw&quot; src=&quot;https://i1.hdslb.com/bfs/face/b8a480b0f74935ca3146975f6591346d888669e3.png@360w_360h.webp&quot; alt=&quot;LongMao&quot;&gt;</code>。其中<code>alt</code>属性是当找不到图片时所显示的文字。</p>
 <h3 id="引用">引用</h3>
-<pre class=" language-language-html"><code class="language-language-html"><!-- Quatation -->
-        <blockquote>
+<pre class="language-html" data-language="html"><code class="language-html">&lt;!-- Quatation --&gt;
+        &lt;blockquote&gt;
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut, quaerat, eaque voluptatum, quo explicabo est excepturi architecto reiciendis commodi nostrum. Sed, modi esse voluptatum quisquam totam maiores mollitia optio?
-        </blockquote>
+        &lt;&#x2F;blockquote&gt;
 
-        <p><abbr title="Massachusettes Institute of Technology">MIT</abbr>is a prestigious collage</p>
+        &lt;p&gt;&lt;abbr title&#x3D;&quot;Massachusettes Institute of Technology&quot;&gt;MIT&lt;&#x2F;abbr&gt;is a prestigious collage&lt;&#x2F;p&gt;
 
-        <p><cite>MIT is a prestigious collage</cite>by DasAuto</p>
-</code></pre>
+        &lt;p&gt;&lt;cite&gt;MIT is a prestigious collage&lt;&#x2F;cite&gt;by DasAuto&lt;&#x2F;p&gt;</code></pre>
 <h2 id="完整代码">完整代码</h2>
-<pre class=" language-language-html"><code class="language-language-html"><!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Crash Course For Beginner</title>
-    </head>
-    <body>
-        <!-- Heading-->>
-        <h1>Heading One</h1>
-        <h2>Heading One</h2>
-        <h3>Heading One</h3>
-        <h4>Heading One</h4>
-        <h5>Heading One</h5>
-        <h6>Heading One</h6>
-        <!-- Paragraph -->
-        <p>Lorem ipsum <strong>dolor sit amet consectetur</strong>, adipisicing elit. Quibusdam soluta at maxime temporibus, nesciunt iure sapiente est tempora beatae, autem nisi impedit assumenda rem, commodi esse similique pariatur ullam? Sint.</p>
-        <p><em>Lorem ipsum dolor</em>, sit <a href="https://google.com" target="_blanck">amet</a> consectetur adipisicing elit. Earum illum magni placeat blanditiis dicta fugit id consequuntur necessitatibus, voluptates velit aliquam rerum facere at tempore dolorem esse a corrupti sint quod, ipsa qui debitis nesciunt atque. Voluptas placeat quo quia enim. Ipsum beatae quidem excepturi quibusdam repudiandae similique eum qui molestiae repellendus, ut dicta, corrupti cum. Exercitationem dolor consequuntur id error quisquam, quas accusantium esse quam maiores quasi cumque dolore minus amet libero voluptas fugit mollitia earum a praesentium adipisci nam qui aliquid? Aperiam, obcaecati. Perferendis impedit, quidem, ipsum doloribus ducimus corrupti voluptatum illum tempora deserunt consequuntur omnis, ex eius?</p>
+<pre class="language-html" data-language="html"><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;HTML Crash Course For Beginner&lt;&#x2F;title&gt;
+    &lt;&#x2F;head&gt;
+    &lt;body&gt;
+        &lt;!-- Heading--&gt;&gt;
+        &lt;h1&gt;Heading One&lt;&#x2F;h1&gt;
+        &lt;h2&gt;Heading One&lt;&#x2F;h2&gt;
+        &lt;h3&gt;Heading One&lt;&#x2F;h3&gt;
+        &lt;h4&gt;Heading One&lt;&#x2F;h4&gt;
+        &lt;h5&gt;Heading One&lt;&#x2F;h5&gt;
+        &lt;h6&gt;Heading One&lt;&#x2F;h6&gt;
+        &lt;!-- Paragraph --&gt;
+        &lt;p&gt;Lorem ipsum &lt;strong&gt;dolor sit amet consectetur&lt;&#x2F;strong&gt;, adipisicing elit. Quibusdam soluta at maxime temporibus, nesciunt iure sapiente est tempora beatae, autem nisi impedit assumenda rem, commodi esse similique pariatur ullam? Sint.&lt;&#x2F;p&gt;
+        &lt;p&gt;&lt;em&gt;Lorem ipsum dolor&lt;&#x2F;em&gt;, sit &lt;a href&#x3D;&quot;https:&#x2F;&#x2F;google.com&quot; target&#x3D;&quot;_blanck&quot;&gt;amet&lt;&#x2F;a&gt; consectetur adipisicing elit. Earum illum magni placeat blanditiis dicta fugit id consequuntur necessitatibus, voluptates velit aliquam rerum facere at tempore dolorem esse a corrupti sint quod, ipsa qui debitis nesciunt atque. Voluptas placeat quo quia enim. Ipsum beatae quidem excepturi quibusdam repudiandae similique eum qui molestiae repellendus, ut dicta, corrupti cum. Exercitationem dolor consequuntur id error quisquam, quas accusantium esse quam maiores quasi cumque dolore minus amet libero voluptas fugit mollitia earum a praesentium adipisci nam qui aliquid? Aperiam, obcaecati. Perferendis impedit, quidem, ipsum doloribus ducimus corrupti voluptatum illum tempora deserunt consequuntur omnis, ex eius?&lt;&#x2F;p&gt;
         
-        <!-- List -->
-        <ul>
-            <li>List Item1</li>
-            <li>List Item2</li>
-        </ul>
+        &lt;!-- List --&gt;
+        &lt;ul&gt;
+            &lt;li&gt;List Item1&lt;&#x2F;li&gt;
+            &lt;li&gt;List Item2&lt;&#x2F;li&gt;
+        &lt;&#x2F;ul&gt;
 
-        <ol>
-            <li>List Item1</li>
-            <li>List Item2</li>
-        </ol>
+        &lt;ol&gt;
+            &lt;li&gt;List Item1&lt;&#x2F;li&gt;
+            &lt;li&gt;List Item2&lt;&#x2F;li&gt;
+        &lt;&#x2F;ol&gt;
 
-        <!-- Table -->
-        <table>
-            <thead>
-                <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Age</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
+        &lt;!-- Table --&gt;
+        &lt;table&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;First Name&lt;&#x2F;th&gt;
+                    &lt;th&gt;Last Name&lt;&#x2F;th&gt;
+                    &lt;th&gt;Age&lt;&#x2F;th&gt;
+                    &lt;th&gt;Email&lt;&#x2F;th&gt;
+                &lt;&#x2F;tr&gt;
+            &lt;&#x2F;thead&gt;
 
-            <tbody>
-                <tr>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>18</th>
-                    <th>12@gmail.com</th>
-                </tr>
-                <tr>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>18</th>
-                    <th>12@gmail.com</th>
-                </tr>
-                <tr>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>18</th>
-                    <th>12@gmail.com</th>
-                </tr>
-            </tbody>
-        </table>
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;W&lt;&#x2F;th&gt;
+                    &lt;th&gt;D&lt;&#x2F;th&gt;
+                    &lt;th&gt;18&lt;&#x2F;th&gt;
+                    &lt;th&gt;12@gmail.com&lt;&#x2F;th&gt;
+                &lt;&#x2F;tr&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;W&lt;&#x2F;th&gt;
+                    &lt;th&gt;D&lt;&#x2F;th&gt;
+                    &lt;th&gt;18&lt;&#x2F;th&gt;
+                    &lt;th&gt;12@gmail.com&lt;&#x2F;th&gt;
+                &lt;&#x2F;tr&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;W&lt;&#x2F;th&gt;
+                    &lt;th&gt;D&lt;&#x2F;th&gt;
+                    &lt;th&gt;18&lt;&#x2F;th&gt;
+                    &lt;th&gt;12@gmail.com&lt;&#x2F;th&gt;
+                &lt;&#x2F;tr&gt;
+            &lt;&#x2F;tbody&gt;
+        &lt;&#x2F;table&gt;
 
-        <br>
-        <br>
-        <hr>
-        <br>
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;hr&gt;
+        &lt;br&gt;
 
-        <!-- Forms -->
-        <form action="form.js" method="POST">
-            <div>
-                <label>First Name</label>
-                <input type="text" name="firstname" placeholder="Enter First Name">
-            </div>
-            <div>
-                <label>Last Name</label>
-                <input type="text" name="lastname" placeholder="Enter Last Name">
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" name="email" placeholder="Enter Email">
-            </div>
-            <!-- Submit -->
-            <input type="submit" name="submit" value="Submit">
+        &lt;!-- Forms --&gt;
+        &lt;form action&#x3D;&quot;form.js&quot; method&#x3D;&quot;POST&quot;&gt;
+            &lt;div&gt;
+                &lt;label&gt;First Name&lt;&#x2F;label&gt;
+                &lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;firstname&quot; placeholder&#x3D;&quot;Enter First Name&quot;&gt;
+            &lt;&#x2F;div&gt;
+            &lt;div&gt;
+                &lt;label&gt;Last Name&lt;&#x2F;label&gt;
+                &lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;lastname&quot; placeholder&#x3D;&quot;Enter Last Name&quot;&gt;
+            &lt;&#x2F;div&gt;
+            &lt;div&gt;
+                &lt;label&gt;Email&lt;&#x2F;label&gt;
+                &lt;input type&#x3D;&quot;email&quot; name&#x3D;&quot;email&quot; placeholder&#x3D;&quot;Enter Email&quot;&gt;
+            &lt;&#x2F;div&gt;
+            &lt;!-- Submit --&gt;
+            &lt;input type&#x3D;&quot;submit&quot; name&#x3D;&quot;submit&quot; value&#x3D;&quot;Submit&quot;&gt;
 
-            <div style="margin-top: 1000px;"></div>
-        </form>
+            &lt;div style&#x3D;&quot;margin-top: 1000px;&quot;&gt;&lt;&#x2F;div&gt;
+        &lt;&#x2F;form&gt;
 
-        <!-- Image -->
-        <img style="width:100vw" src="https://i1.hdslb.com/bfs/face/b8a480b0f74935ca3146975f6591346d888669e3.png@360w_360h.webp" alt="LongMao">
-        <!-- Button -->
-        <button>This is a Button</button>
+        &lt;!-- Image --&gt;
+        &lt;img style&#x3D;&quot;width:100vw&quot; src&#x3D;&quot;https:&#x2F;&#x2F;i1.hdslb.com&#x2F;bfs&#x2F;face&#x2F;b8a480b0f74935ca3146975f6591346d888669e3.png@360w_360h.webp&quot; alt&#x3D;&quot;LongMao&quot;&gt;
+        &lt;!-- Button --&gt;
+        &lt;button&gt;This is a Button&lt;&#x2F;button&gt;
 
-        <!-- Quatation -->
-        <blockquote>
+        &lt;!-- Quatation --&gt;
+        &lt;blockquote&gt;
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut, quaerat, eaque voluptatum, quo explicabo est excepturi architecto reiciendis commodi nostrum. Sed, modi esse voluptatum quisquam totam maiores mollitia optio?
-        </blockquote>
+        &lt;&#x2F;blockquote&gt;
 
-        <p><abbr title="Massachusettes Institute of Technology">MIT</abbr>is a prestigious collage</p>
+        &lt;p&gt;&lt;abbr title&#x3D;&quot;Massachusettes Institute of Technology&quot;&gt;MIT&lt;&#x2F;abbr&gt;is a prestigious collage&lt;&#x2F;p&gt;
 
-        <p><cite>MIT is a prestigious collage</cite>by DasAuto</p>
+        &lt;p&gt;&lt;cite&gt;MIT is a prestigious collage&lt;&#x2F;cite&gt;by DasAuto&lt;&#x2F;p&gt;
 
-    </body>
-</html>
-</code></pre>
+    &lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</code></pre>
 <h2 id="后续学习">后续学习</h2>
 <p>学习网站：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML</a>。</p>
 <p>查阅文档资料。</p>
@@ -1379,7 +1375,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">9.8k</span>&nbsp;字
+                class="white-color">10.8k</span>&nbsp;字
             
             
             

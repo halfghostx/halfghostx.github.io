@@ -30,7 +30,7 @@
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="HalfGhostX猫" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><script src="/js/prism.js"></script></head>
 
 
 
@@ -690,6 +690,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -705,29 +708,25 @@ Gitee官网：<a target="_blank" rel="noopener" href="https://gitee.com/">Gitee<
 <p>Git用来将项目托管到GitHub或者Gitee。下载地址为：<a target="_blank" rel="noopener" href="https://git-scm.com/download">Git</a>。配置自行百度，不再赘述。</p>
 <h1>安装Heox</h1>
 <p>在Git Bash中执行命令：</p>
-<pre class=" language-language-bash"><code class="language-language-bash">npm install hexo-cli -g
-</code></pre>
+<pre class="language-bash" data-language="bash"><code class="language-bash">npm install hexo-cli -g</code></pre>
 <h1>创建本地博客站点</h1>
 <p>在Git Bash中执行命令：</p>
-<pre class=" language-language-bash"><code class="language-language-bash">hexo init  hexoblog
-</code></pre>
+<pre class="language-bash" data-language="bash"><code class="language-bash">hexo init  hexoblog</code></pre>
 <p>然后进入<code>hexoblog</code>文件夹，安装相关依赖包。</p>
-<pre class=" language-language-bash"><code class="language-language-bash"># 1、进入hexoblog项目目录
+<pre class="language-bash" data-language="bash"><code class="language-bash"># 1、进入hexoblog项目目录
 cd hexoblog
 # 2、安装 hexoblog 项目的依赖包
 npm install
 # 3、启动 hexoblog 项目服务
-hexo server
-</code></pre>
+hexo server</code></pre>
 <h1>本地访问博客</h1>
 <p>访问地址http://localhost:4000/即可看到生成的博客界面。</p>
 <h1>博客项目部署</h1>
 <p>新建仓库，在博客项目根目录下安装Git部署插件。</p>
-<pre class=" language-language-bash"><code class="language-language-bash"># 之后就可以使用 hexo deploy（或简写 hexo d）将项目部署到远程仓库
+<pre class="language-bash" data-language="bash"><code class="language-bash"># 之后就可以使用 hexo deploy（或简写 hexo d）将项目部署到远程仓库
 npm install hexo-deployer-git --save
 # 部署
-hexo d
-</code></pre>
+hexo d</code></pre>
 <p>部署需要修改配置文件。部署成功后访问相关网址即可。</p>
 <h1>后期美化</h1>
 <p>修改主题，可以到Hexo主题网选择自己喜欢的主题并下载，官网为：<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo主题</a>。然后阅读主题的官方文档自行修改、添加或删除需要的功能界面等，网上有一大堆教程。</p>
@@ -1363,7 +1362,7 @@ hexo d
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">9.8k</span>&nbsp;字
+                class="white-color">10.8k</span>&nbsp;字
             
             
             
