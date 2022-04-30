@@ -668,14 +668,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    784
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -695,7 +695,249 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
+                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>HTML5速成</h1>
+<p>HTML5速成（Crash Course For Beginners）。教程视频地址：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vs411M7aT">HTML速成</a>。</p>
+<h2 id="准备">准备</h2>
+<ul>
+<li>浏览器：Google Chrome（多浏览器测试）</li>
+<li>编辑器：Visual Studio Code</li>
+</ul>
+<p>另外，代码平台：<a target="_blank" rel="noopener" href="https://codepen.io/">CodePen</a>。</p>
+<h2 id="什么是HTML">什么是HTML</h2>
+<ol>
+<li>Hyper Text Markup Language（超文本<strong>标记语言</strong>）。</li>
+<li><strong>不是</strong>编程语言。</li>
+<li>作用：告诉浏览器如何构造网页。</li>
+</ol>
+<h2 id="HTML基本概念">HTML基本概念</h2>
+<ol>
+<li>HTML Element。</li>
+<li>Tag。</li>
+<li>Opening Tag：<code>&lt;p&gt;</code>。</li>
+<li>Closing Tag：<code>&lt;/p&gt;</code>。</li>
+<li>Content，填充文本。</li>
+</ol>
+<p>所有的HTML Tag查询网址：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Element</a>。</p>
+<h2 id="HTML基本文件组成">HTML基本文件组成</h2>
+<ul>
+<li>基本结构</li>
+</ul>
+<pre class=" language-language-html"><code class="language-language-html"><!DOCTYPE html># 用于解释文档的类型
+<html>
+<head>
+    <title>This is a page</title>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+    <p>This is paragraph</p>
+</body>
+</html>
+</code></pre>
+<p><strong>注</strong>：VScode快捷键，<code>alt+shift+Down Arrow</code>快速复制当前行。</p>
+<ul>
+<li>注释：<code>&lt;!-- Heading --&gt;</code>。</li>
+</ul>
+<p>每个Heading之间会有空白，每段之间也有空白。</p>
+<h2 id="内联元素和块级元素">内联元素和块级元素</h2>
+<p>Inline and Block Level Element。</p>
+<h3 id="块级元素">块级元素</h3>
+<ul>
+<li>在页面以块的形式展现</li>
+<li>出现在新的一行</li>
+<li>占全部宽度（如果不用CSS去设置，会占浏览器页面的全部宽度）</li>
+</ul>
+<p>比如<code>&lt;div&gt;,&lt;h1&gt;-&lt;h6&gt;,&lt;p&gt;</code>。</p>
+<h3 id="内联元素">内联元素</h3>
+<ul>
+<li>通常在块级元素内</li>
+<li>不会导致文本换行</li>
+<li>只占必要的部分宽度</li>
+</ul>
+<p>比如<code>&lt;a&gt;,&lt;img&gt;,&lt;em&gt;,&lt;strong&gt;</code>。</p>
+<h3 id="a-a"><code>&lt;a&gt;&lt;/a&gt;</code></h3>
+<pre class=" language-language-html"><code class="language-language-html"><a target="_blank" rel="noopener" href="https://google.com">Lorem</a>
+</code></pre>
+<ul>
+<li>attribute的概念，属性。全局，局部。被写在起始的Tag上。</li>
+</ul>
+<p>特定标签属性查询网址：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">局部特定属性</a>。全局属性查询：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">全局属性</a>。</p>
+<p><strong>注</strong>：多个属性用空格隔开；<code>target=&quot;_blank&quot;</code>属性。</p>
+<p>快捷键：<code>ctrl+/</code>插入注释。</p>
+<h3 id="列表">列表</h3>
+<pre class=" language-language-html"><code class="language-language-html"><ul># 无序列表
+    <li></li># 列表内容list item
+<ul>
+
+<ol># 有序列表
+    <li></li># 列表内容list item
+<ol>
+</code></pre>
+<h3 id="表格">表格</h3>
+<pre class=" language-language-html"><code class="language-language-html"><table>
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </tbody>
+</table>
+</code></pre>
+<p>上述结果很难看，因为没有用CSS去修饰。</p>
+<h3 id="表单">表单</h3>
+<p>Forms。</p>
+<ul>
+<li><code>&lt;br&gt;</code>line breaker。</li>
+<li><code>&lt;hr&gt;</code>horizontal line。</li>
+</ul>
+<pre class=" language-language-html"><code class="language-language-html"><!-- Forms -->
+        <form action="form.js" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" placeholder="Enter First Name">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter Last Name">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </div>
+            <!-- Submit -->
+            <input type="submit" name="submit" value="Submit">
+
+            <div style="margin-top: 1000px;"></div>
+        </form>
+</code></pre>
+<p>按钮：<code>&lt;button&gt;This is a Button&lt;/button&gt;</code>。</p>
+<p>图片：<code>&lt;img style=&quot;width:100vw&quot; src=&quot;https://i1.hdslb.com/bfs/face/b8a480b0f74935ca3146975f6591346d888669e3.png@360w_360h.webp&quot; alt=&quot;LongMao&quot;&gt;</code>。其中<code>alt</code>属性是当找不到图片时所显示的文字。</p>
+<h3 id="引用">引用</h3>
+<pre class=" language-language-html"><code class="language-language-html"><!-- Quatation -->
+        <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut, quaerat, eaque voluptatum, quo explicabo est excepturi architecto reiciendis commodi nostrum. Sed, modi esse voluptatum quisquam totam maiores mollitia optio?
+        </blockquote>
+
+        <p><abbr title="Massachusettes Institute of Technology">MIT</abbr>is a prestigious collage</p>
+
+        <p><cite>MIT is a prestigious collage</cite>by DasAuto</p>
+</code></pre>
+<h2 id="完整代码">完整代码</h2>
+<pre class=" language-language-html"><code class="language-language-html"><!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Crash Course For Beginner</title>
+    </head>
+    <body>
+        <!-- Heading-->>
+        <h1>Heading One</h1>
+        <h2>Heading One</h2>
+        <h3>Heading One</h3>
+        <h4>Heading One</h4>
+        <h5>Heading One</h5>
+        <h6>Heading One</h6>
+        <!-- Paragraph -->
+        <p>Lorem ipsum <strong>dolor sit amet consectetur</strong>, adipisicing elit. Quibusdam soluta at maxime temporibus, nesciunt iure sapiente est tempora beatae, autem nisi impedit assumenda rem, commodi esse similique pariatur ullam? Sint.</p>
+        <p><em>Lorem ipsum dolor</em>, sit <a href="https://google.com" target="_blanck">amet</a> consectetur adipisicing elit. Earum illum magni placeat blanditiis dicta fugit id consequuntur necessitatibus, voluptates velit aliquam rerum facere at tempore dolorem esse a corrupti sint quod, ipsa qui debitis nesciunt atque. Voluptas placeat quo quia enim. Ipsum beatae quidem excepturi quibusdam repudiandae similique eum qui molestiae repellendus, ut dicta, corrupti cum. Exercitationem dolor consequuntur id error quisquam, quas accusantium esse quam maiores quasi cumque dolore minus amet libero voluptas fugit mollitia earum a praesentium adipisci nam qui aliquid? Aperiam, obcaecati. Perferendis impedit, quidem, ipsum doloribus ducimus corrupti voluptatum illum tempora deserunt consequuntur omnis, ex eius?</p>
+        
+        <!-- List -->
+        <ul>
+            <li>List Item1</li>
+            <li>List Item2</li>
+        </ul>
+
+        <ol>
+            <li>List Item1</li>
+            <li>List Item2</li>
+        </ol>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>18</th>
+                    <th>12@gmail.com</th>
+                </tr>
+                <tr>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>18</th>
+                    <th>12@gmail.com</th>
+                </tr>
+                <tr>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>18</th>
+                    <th>12@gmail.com</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <form action="form.js" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" placeholder="Enter First Name">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter Last Name">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </div>
+            <!-- Submit -->
+            <input type="submit" name="submit" value="Submit">
+
+            <div style="margin-top: 1000px;"></div>
+        </form>
+
+        <!-- Image -->
+        <img style="width:100vw" src="https://i1.hdslb.com/bfs/face/b8a480b0f74935ca3146975f6591346d888669e3.png@360w_360h.webp" alt="LongMao">
+        <!-- Button -->
+        <button>This is a Button</button>
+
+        <!-- Quatation -->
+        <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut, quaerat, eaque voluptatum, quo explicabo est excepturi architecto reiciendis commodi nostrum. Sed, modi esse voluptatum quisquam totam maiores mollitia optio?
+        </blockquote>
+
+        <p><abbr title="Massachusettes Institute of Technology">MIT</abbr>is a prestigious collage</p>
+
+        <p><cite>MIT is a prestigious collage</cite>by DasAuto</p>
+
+    </body>
+</html>
+</code></pre>
+<h2 id="后续学习">后续学习</h2>
+<p>学习网站：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML</a>。</p>
+<p>查阅文档资料。</p>
+
                 
             </div>
             <hr/>
@@ -1325,7 +1567,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">9k</span>&nbsp;字
+                class="white-color">9.8k</span>&nbsp;字
             
             
             
