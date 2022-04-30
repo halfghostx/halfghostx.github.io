@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>HTML速成</title>
+      <link href="/2022/04/30/html-su-cheng/"/>
+      <url>/2022/04/30/html-su-cheng/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>中岛敦《山月记》摘录</title>
       <link href="/2022/04/29/zhong-dao-dun-shan-yue-ji-zhai-lu/"/>
       <url>/2022/04/29/zhong-dao-dun-shan-yue-ji-zhai-lu/</url>
@@ -62,7 +89,7 @@
       <link href="/2022/04/28/xi-tong-tuo-min-yu-zhuan-zhu-li-xun-lian/"/>
       <url>/2022/04/28/xi-tong-tuo-min-yu-zhuan-zhu-li-xun-lian/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>系统脱敏训练</h1><ol><li>放松技巧（前臂，头面部，肩，背，胸，腹，下肢）</li><li>焦虑等级（0-100，级差均匀）</li><li>系统脱敏（最低级刺激事件或情景，紧张时停止想象，全身放松，平静后重复→下一等级）</li></ol><h1>专注力训练</h1><p>如何训练超强专注力？在《如何像爱因斯坦一样专注》中提到了12个专注训练法，每天坚持几次，连续17天会有明显提升。训练方法可分为四组。</p><h2 id="第一组">第一组</h2><p>1-1: 闭上眼睛想象一条两边都种了树的路，视线由近到远，一直到路的尽头，融为一个点。1-2: 想象一个孩子正在荡秋千，越荡越慢，直到停止。1-3: 想象一列火车离你远去，车尾有个大大的字母“i”，随着火车远去，“i”变成一个点。</p><h2 id="第二组">第二组</h2><p>2-1: 闭着眼，在脑海中假想分别用右手和左手各画一个“∞”的符号。2-2: 在脑海中假想用双手画螺旋，先顺时针再逆时针，然后两只手方向相反对着画。2-3: 闭着眼想象一朵花慢慢盛开的过程。</p><h2 id="第三组">第三组</h2><p>3-1找8个物品放桌上，从最后一个开始依次拿掉，然后再在脑海中再来一遍。3-2: 闭着眼想象你写数字1、2、3，然后从3开始依次擦掉。3-3: 想象你写单词“NEW YORK”，然后从“K”开始依次擦掉。</p><h2 id="第四组">第四组</h2><p>4-1: 闭眼深呼吸10次，感受气流在你的喉咙和肺里流进流出。4-2: 闭眼深呼吸10次，随着每次吸气呼气数数到20。4-3: 闭眼慢慢呼吸10次，专注呼吸什么都不想。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>系统脱敏训练</h1><ol><li>放松技巧（前臂，头面部，肩，背，胸，腹，下肢）</li><li>焦虑等级（0-100，级差均匀）</li><li>系统脱敏（最低级刺激事件或情景，紧张时停止想象，全身放松，平静后重复→下一等级）</li></ol><h1>专注力训练</h1><p>如何训练超强专注力？在《如何像爱因斯坦一样专注》中提到了12个专注训练法，每天坚持几次，连续17天会有明显提升。训练方法可分为四组。</p><h2 id="第一组">第一组</h2><ol><li>闭上眼睛想象一条两边都种了树的路，视线由近到远，一直到路的尽头，融为一个点。</li><li>想象一个孩子正在荡秋千，越荡越慢，直到停止。</li><li>想象一列火车离你远去，车尾有个大大的字母“i”，随着火车远去，“i”变成一个点。</li></ol><h2 id="第二组">第二组</h2><ol><li>闭着眼，在脑海中假想分别用右手和左手各画一个“∞”的符号。</li><li>在脑海中假想用双手画螺旋，先顺时针再逆时针，然后两只手方向相反对着画。</li><li>闭着眼想象一朵花慢慢盛开的过程。</li></ol><h2 id="第三组">第三组</h2><ol><li>找8个物品放桌上，从最后一个开始依次拿掉，然后再在脑海中再来一遍。</li><li>闭着眼想象你写数字1、2、3，然后从3开始依次擦掉。</li><li>想象你写单词“NEW YORK”，然后从“K”开始依次擦掉。</li></ol><h2 id="第四组">第四组</h2><ol><li>闭眼深呼吸10次，感受气流在你的喉咙和肺里流进流出。</li><li>闭眼深呼吸10次，随着每次吸气呼气数数到20。</li><li>闭眼慢慢呼吸10次，专注呼吸什么都不想。</li></ol>]]></content>
       
       
       <categories>
@@ -103,9 +130,9 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -130,9 +157,9 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -157,9 +184,9 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -184,9 +211,9 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> 编程语言 </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -228,7 +255,7 @@
       <link href="/2022/04/25/huan-jing-bian-liang/"/>
       <url>/2022/04/25/huan-jing-bian-liang/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>环境变量</h1><p>一直对“环境变量”的概念比较模糊，具体学习一下关于环境变量的东西。以下是一些基础的东西。具体的东西百度/Google。</p><p><code>%systemroot%</code>，系统环境变量之一，指明系统总（根）目录在哪，其中<code>%NAME%</code>符号相当于取<code>NAME</code>所代表的路径。</p><p>百度百科定义：<a href="https://baike.baidu.com/item/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/1730949?fr=aladdin" title="环境变量">环境变量</a>：</p><blockquote><p>环境变量是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用程序所将使用到的信息。(这不是人话！)</p></blockquote><p>**环境变量：**其主要作用就是指明操作系统的重要目录在哪。</p><p><strong>在哪：</strong>win7：计算机-右键-属性-高级系统设置-环境变量。win10：设置直接搜索。</p><p>**和编程息息相关的环境变量：**pathwin+r，运行，输入命令，系统通过path指定的路径去寻找相关的命令，找到就运行，找不到就报错。比如cmd命令在<code>system32</code>文件夹，环境变量的path包括了该路径，则系统可以找到cmd命令并运行。如果需要运行自己的命令，一是可以将其放到path中的路径下，比如放到<code>system32</code>下，二是将程序所在路径添加到path路径当中。</p><p>**用户变量：**针对当前登录的用户。</p><p>视频教程地址：<a href="https://www.bilibili.com/video/BV1w741147G9?spm_id_from=..search-card.all.click" title="『教程』什么是环境变量">『教程』什么是环境变量</a><a href="https://www.bilibili.com/video/BV1nS4y1o7LG?spm_id_from=..search-card.all.click" title="配置环境变量是怎么个意思？">配置环境变量是怎么个意思？</a></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>环境变量</h1><p>一直对“环境变量”的概念比较模糊，具体学习一下关于环境变量的东西。以下是一些基础的东西。具体的东西百度/Google。</p><p><code>%systemroot%</code>，系统环境变量之一，指明系统总（根）目录在哪，其中<code>%NAME%</code>符号相当于取<code>NAME</code>所代表的路径。</p><p><strong>百度百科定义</strong>：<a href="https://baike.baidu.com/item/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/1730949?fr=aladdin" title="环境变量">环境变量</a>：</p><blockquote><p>环境变量是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用程序所将使用到的信息。（这不是人话！）</p></blockquote><p><strong>环境变量</strong>：其主要作用就是指明操作系统的重要目录在哪。</p><p><strong>在哪</strong>：win7：计算机-右键-属性-高级系统设置-环境变量。win10：设置直接搜索。</p><p><strong>和编程息息相关的环境变量</strong>：pathwin+r，运行，输入命令，系统通过path指定的路径去寻找相关的命令，找到就运行，找不到就报错。比如cmd命令在<code>system32</code>文件夹，环境变量的path包括了该路径，则系统可以找到cmd命令并运行。如果需要运行自己的命令，一是可以将其放到path中的路径下，比如放到<code>system32</code>下，二是将程序所在路径添加到path路径当中。</p><p><strong>用户变量</strong>：针对当前登录的用户。</p><p>视频教程地址：<a href="https://www.bilibili.com/video/BV1w741147G9?spm_id_from=..search-card.all.click" title="『教程』什么是环境变量">『教程』什么是环境变量</a><a href="https://www.bilibili.com/video/BV1nS4y1o7LG?spm_id_from=..search-card.all.click" title="配置环境变量是怎么个意思？">配置环境变量是怎么个意思？</a></p>]]></content>
       
       
       <categories>
@@ -255,7 +282,7 @@
       <link href="/2022/04/25/yue-du-shu-mu/"/>
       <url>/2022/04/25/yue-du-shu-mu/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>当我沉默着的时候，我觉得充实；我将开口，同时感到空虚。——鲁迅《野草·题辞》</p></blockquote><h1>推荐数目</h1><ol><li>《一生的读书计划》（克里夫顿·费迪曼）</li><li>《如何阅读一本书》（莫提默·J. 艾德勒、查尔斯·范多伦）</li></ol><h1>我读过的书</h1><ol><li>《局外人》（阿贝尔·加缪）</li><li>《南渡北归（三部曲）》（岳南）</li><li>《聊斋志异》（蒲松龄）</li><li>《在细雨中呼喊》（余华）</li><li>《活着》（余华）</li><li>《许三观卖血记》（余华）</li><li>《兄弟》（余华）</li><li>《文城》（余华）</li><li>《第七天》（余华）</li><li>《时间简史》（霍金）</li><li>《鲁滨逊漂流记》（丹尼尔·笛福）</li><li>《希腊神话故事》（古斯塔夫·施瓦布）</li><li>《从一到无穷大》（George Gamow）</li><li>《日本妖怪奇谭》（王新禧）</li><li>《数学之美》（吴军）</li><li>《公式之美》（量子学派）</li><li>《中国哲学简史》（冯友兰）</li><li>《中国神话史》（袁珂）</li><li>《朝花夕拾·野草》（鲁迅）</li><li>《诗词赏析七讲》（周啸天）</li><li>《西西弗神话》（阿贝尔·加缪）</li><li>《薛西福斯的神话》（阿贝尔·加缪，商州出版）</li><li>《小王子》（安托万·德·圣埃克苏佩里）</li><li>《爱德华的奇妙之旅》（凯特·迪卡米洛）</li><li>《明朝那些事儿》（当年明月）</li><li>《三体三部曲》（刘慈欣）</li><li>《唐朝穿越指南》（森林鹿）</li><li>《沉思录》（马可·奥勒留）</li><li>《不安之书》（费尔南多·佩索阿）</li><li>《物理学的进化》（阿尔伯特·爱因斯坦，利奥波德·英费尔德）</li><li>《老人与海》（海明威）</li><li>《三国演义》（罗贯中）</li><li>《西游记》（吴承恩）</li><li>《白鹿原》（陈忠实）</li><li>《苏菲的世界》（乔斯坦·贾德）</li><li>《虚无的十字架》（东野圭吾）</li><li>《失乐园》（约翰·弥尔顿）</li><li>《一个叫欧维的男人决定去死》（弗雷德里克·巴克曼）</li><li>《解忧杂货店》（东野圭吾）</li><li>《1984》（乔治·奥威尔）</li><li>《我们》（尤金·扎米亚京）</li><li>《美丽新世界》（阿道司·赫胥黎）</li><li>《百鬼夜行全画集》（鸟山石燕）</li><li>《亚瑟王之死》（托马斯·马洛礼）</li><li>《一个人的朝圣》（蕾秋·乔伊斯）</li><li>《岛》（维多利亚·希斯洛普）</li><li>《悟空传》（今何在）</li><li>《哲学问题》（罗素）</li><li>《万物简史》（比尔·布莱森）</li><li>《平凡的世界》（路遥）</li><li>《追风筝的人》（卡勒德·胡赛尼）</li><li>《摆渡人》（克莱儿·麦克福尔）</li><li>《绿野仙踪》（弗兰克·鲍姆）</li><li>《汤姆·索亚历险记》（马克·吐温）</li><li>《钢铁是怎样炼成的》（奥斯特洛夫斯基）</li><li>《八十天环游地球》（儒勒·凡尔纳）</li><li>《骆驼祥子》（老舍）</li><li>《文化苦旅》（余秋雨）</li><li>《林清玄散文集》（林清玄）</li><li>《契诃夫短篇小说》（契诃夫）</li><li>《第一律法（卷一）》（乔·阿克罗比）</li><li>《边城》（沈从文）</li><li>《查令十字街84号》（海莲·汉芙）</li><li>《规训与惩罚》（米歇尔·福柯）</li><li>《微微一笑很倾城》（顾漫）→我为什么会看这个🤪</li><li>《何以笙箫默》（顾漫）→吐血🤪</li><li>《素数之恋》（德比希尔）</li><li>《山月记》（中岛敦）</li><li>《吉尔伽美什》（佚名）</li><li>《故事新编》（鲁迅）</li><li>《佛学概论》（关大眠）</li><li>《哲学家们都干了什么》（林欣浩）</li><li>《极简西方哲学史》（杰瑞米·斯坦格鲁）</li><li>《X的奇幻之旅：为什么工作和生活中要有数学思维》</li><li>《笑林广记》（程世爵）</li><li>《秦时明月小说（全八册）》（温世仁，相声瓦舍）</li><li>《白蛇全传》（梦花馆主）</li><li>《人生的智慧》（叔本华）</li><li>《西湖民间故事》（杭州时文化局编）</li><li>待更新…</li></ol>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>当我沉默着的时候，我觉得充实；我将开口，同时感到空虚。——鲁迅《野草·题辞》</p></blockquote><h1>书单和阅读</h1><ol><li>《一生的读书计划》（克里夫顿·费迪曼）</li><li>《如何阅读一本书》（莫提默·J. 艾德勒、查尔斯·范多伦）</li></ol><h1>我读过的书</h1><ol><li>《局外人》（阿贝尔·加缪）</li><li>《南渡北归（三部曲）》（岳南）</li><li>《聊斋志异》（蒲松龄）</li><li>《在细雨中呼喊》（余华）</li><li>《活着》（余华）</li><li>《许三观卖血记》（余华）</li><li>《兄弟》（余华）</li><li>《文城》（余华）</li><li>《第七天》（余华）</li><li>《时间简史》（霍金）</li><li>《鲁滨逊漂流记》（丹尼尔·笛福）</li><li>《希腊神话故事》（古斯塔夫·施瓦布）</li><li>《从一到无穷大》（George Gamow）</li><li>《日本妖怪奇谭》（王新禧）</li><li>《数学之美》（吴军）</li><li>《公式之美》（量子学派）</li><li>《中国哲学简史》（冯友兰）</li><li>《中国神话史》（袁珂）</li><li>《朝花夕拾·野草》（鲁迅）</li><li>《诗词赏析七讲》（周啸天）</li><li>《西西弗神话》（阿贝尔·加缪）</li><li>《薛西福斯的神话》（阿贝尔·加缪，商州出版）</li><li>《小王子》（安托万·德·圣埃克苏佩里）</li><li>《爱德华的奇妙之旅》（凯特·迪卡米洛）</li><li>《明朝那些事儿》（当年明月）</li><li>《三体三部曲》（刘慈欣）</li><li>《唐朝穿越指南》（森林鹿）</li><li>《沉思录》（马可·奥勒留）</li><li>《不安之书》（费尔南多·佩索阿）</li><li>《物理学的进化》（阿尔伯特·爱因斯坦，利奥波德·英费尔德）</li><li>《老人与海》（海明威）</li><li>《三国演义》（罗贯中）</li><li>《西游记》（吴承恩）</li><li>《白鹿原》（陈忠实）</li><li>《苏菲的世界》（乔斯坦·贾德）</li><li>《虚无的十字架》（东野圭吾）</li><li>《失乐园》（约翰·弥尔顿）</li><li>《一个叫欧维的男人决定去死》（弗雷德里克·巴克曼）</li><li>《解忧杂货店》（东野圭吾）</li><li>《1984》（乔治·奥威尔）</li><li>《我们》（尤金·扎米亚京）</li><li>《美丽新世界》（阿道司·赫胥黎）</li><li>《百鬼夜行全画集》（鸟山石燕）</li><li>《亚瑟王之死》（托马斯·马洛礼）</li><li>《一个人的朝圣》（蕾秋·乔伊斯）</li><li>《岛》（维多利亚·希斯洛普）</li><li>《悟空传》（今何在）</li><li>《哲学问题》（罗素）</li><li>《万物简史》（比尔·布莱森）</li><li>《平凡的世界》（路遥）</li><li>《追风筝的人》（卡勒德·胡赛尼）</li><li>《摆渡人》（克莱儿·麦克福尔）</li><li>《绿野仙踪》（弗兰克·鲍姆）</li><li>《汤姆·索亚历险记》（马克·吐温）</li><li>《钢铁是怎样炼成的》（奥斯特洛夫斯基）</li><li>《八十天环游地球》（儒勒·凡尔纳）</li><li>《骆驼祥子》（老舍）</li><li>《文化苦旅》（余秋雨）</li><li>《林清玄散文集》（林清玄）</li><li>《契诃夫短篇小说》（契诃夫）</li><li>《第一律法（卷一）》（乔·阿克罗比）</li><li>《边城》（沈从文）</li><li>《查令十字街84号》（海莲·汉芙）</li><li>《规训与惩罚》（米歇尔·福柯）</li><li>《微微一笑很倾城》（顾漫）→我为什么会看这个🤪</li><li>《何以笙箫默》（顾漫）→吐血🤪</li><li>《素数之恋》（德比希尔）</li><li>《山月记》（中岛敦）</li><li>《吉尔伽美什》（佚名）</li><li>《故事新编》（鲁迅）</li><li>《佛学概论》（关大眠）</li><li>《哲学家们都干了什么》（林欣浩）</li><li>《极简西方哲学史》（杰瑞米·斯坦格鲁）</li><li>《X的奇幻之旅：为什么工作和生活中要有数学思维》</li><li>《笑林广记》（程世爵）</li><li>《秦时明月小说（全八册）》（温世仁，相声瓦舍）</li><li>《白蛇全传》（梦花馆主）</li><li>《人生的智慧》（叔本华）</li><li>《西湖民间故事》（杭州时文化局编）</li><li>待更新…</li></ol>]]></content>
       
       
       <categories>

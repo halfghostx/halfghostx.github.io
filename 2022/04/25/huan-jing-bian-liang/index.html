@@ -128,7 +128,16 @@
       </li>
       
       <li>
-        <a href="/movies">
+        <a href="/books2">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>书籍</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies2">
           
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -137,11 +146,20 @@
       </li>
       
       <li>
-        <a href="/books">
+        <a href="/bangumi2">
           
-          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          <i class="fas fa-video" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>书籍</span>
+          <span>番剧</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/games2">
+          
+          <i class="fas fa-chess" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>游戏</span>
         </a>
       </li>
       
@@ -302,7 +320,17 @@
               
                 <li>
 
-                  <a href="/movies " style="margin-left:75px">
+                  <a href="/books2 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>书籍</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/movies2 " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
 			      
@@ -312,11 +340,21 @@
               
                 <li>
 
-                  <a href="/books " style="margin-left:75px">
+                  <a href="/bangumi2 " style="margin-left:75px">
 				  
-				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+				   <i class="fa fas fa-video" style="position: absolute;left:50px" ></i>
 			      
-		          <span>书籍</span>
+		          <span>番剧</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/games2 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-chess" style="position: absolute;left:50px" ></i>
+			      
+		          <span>游戏</span>
                   </a>
                 </li>
               
@@ -623,7 +661,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-04-29
+                    2022-04-30
                 </div>
                 
 
@@ -660,17 +698,17 @@
                 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>环境变量</h1>
 <p>一直对“环境变量”的概念比较模糊，具体学习一下关于环境变量的东西。以下是一些基础的东西。具体的东西百度/Google。</p>
 <p><code>%systemroot%</code>，系统环境变量之一，指明系统总（根）目录在哪，其中<code>%NAME%</code>符号相当于取<code>NAME</code>所代表的路径。</p>
-<p>百度百科定义：<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/1730949?fr=aladdin" title="环境变量">环境变量</a>：</p>
+<p><strong>百度百科定义</strong>：<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/1730949?fr=aladdin" title="环境变量">环境变量</a>：</p>
 <blockquote>
-<p>环境变量是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用程序所将使用到的信息。(这不是人话！)</p>
+<p>环境变量是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用程序所将使用到的信息。（这不是人话！）</p>
 </blockquote>
-<p>**环境变量：**其主要作用就是指明操作系统的重要目录在哪。</p>
-<p><strong>在哪：</strong>
+<p><strong>环境变量</strong>：其主要作用就是指明操作系统的重要目录在哪。</p>
+<p><strong>在哪</strong>：
 win7：计算机-右键-属性-高级系统设置-环境变量。
 win10：设置直接搜索。</p>
-<p>**和编程息息相关的环境变量：**path
+<p><strong>和编程息息相关的环境变量</strong>：path
 win+r，运行，输入命令，系统通过path指定的路径去寻找相关的命令，找到就运行，找不到就报错。比如cmd命令在<code>system32</code>文件夹，环境变量的path包括了该路径，则系统可以找到cmd命令并运行。如果需要运行自己的命令，一是可以将其放到path中的路径下，比如放到<code>system32</code>下，二是将程序所在路径添加到path路径当中。</p>
-<p>**用户变量：**针对当前登录的用户。</p>
+<p><strong>用户变量</strong>：针对当前登录的用户。</p>
 <p>视频教程地址：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1w741147G9?spm_id_from=..search-card.all.click" title="『教程』什么是环境变量">『教程』什么是环境变量</a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nS4y1o7LG?spm_id_from=..search-card.all.click" title="配置环境变量是怎么个意思？">配置环境变量是怎么个意思？</a></p>
 
                 
