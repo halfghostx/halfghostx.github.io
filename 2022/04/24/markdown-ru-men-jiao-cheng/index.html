@@ -30,7 +30,7 @@
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="HalfGhostX猫" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><script src="/js/prism.js"></script></head>
+</head>
 
 
 
@@ -665,7 +665,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-04-30
+                    2022-05-01
                 </div>
                 
 
@@ -736,7 +736,7 @@
 <ul>
 <li>hack方法根据Markdown的解析原理来注释，比较稳定，但语义化差。</li>
 </ul>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">[&#x2F;&#x2F;]: # (哈哈我是最强注释，不会在浏览器中显示。)
+<pre class="language-none"><code class="language-none">[&#x2F;&#x2F;]: # (哈哈我是最强注释，不会在浏览器中显示。)
 [^_^]: # (哈哈我是最萌注释，不会在浏览器中显示。)
 [&#x2F;&#x2F;]: &lt;&gt; (哈哈我是注释，不会在浏览器中显示。)
 [comment]: &lt;&gt; (哈哈我是注释，不会在浏览器中显示。)
@@ -745,7 +745,7 @@
 <ul>
 <li>标题</li>
 </ul>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown"># 一级标题
+<pre class="language-none"><code class="language-none"># 一级标题
 ## 二级标题
 ### 三级标题
 #### 四级标题
@@ -753,7 +753,7 @@
 ###### 六级标题</code></pre>
 <p>列表分为有序列表和无序列表，另外还有任务列表。</p>
 <p><strong>无序列表：</strong></p>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">- 无序列表1
+<pre class="language-none"><code class="language-none">- 无序列表1
 - 无序列表2</code></pre>
 <p>效果：</p>
 <ul>
@@ -761,7 +761,7 @@
 <li>无序列表2</li>
 </ul>
 <p><strong>有序列表：</strong></p>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">1. 有序列表1
+<pre class="language-none"><code class="language-none">1. 有序列表1
 2. 有序列表2</code></pre>
 <p>效果：</p>
 <ol>
@@ -769,7 +769,7 @@
 <li>有序列表2</li>
 </ol>
 <p><strong>任务列表：</strong></p>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">- [ ] 任务一 未做任务 &#96;- + 空格 + [ ]&#96;
+<pre class="language-none"><code class="language-none">- [ ] 任务一 未做任务 &#96;- + 空格 + [ ]&#96;
 - [x] 任务二 已做任务 &#96;- + 空格 + [x]&#96;</code></pre>
 <p>效果：</p>
 <ul>
@@ -777,7 +777,7 @@
 <li>[x] 任务二 已做任务 <code>- + 空格 + [x]</code></li>
 </ul>
 <h3 id="2-3-字体改变">2.3 字体改变</h3>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">*斜体*或_斜体_
+<pre class="language-none"><code class="language-none">*斜体*或_斜体_
 **粗体**
 ***加粗斜体***
 ~~删除线~~
@@ -791,15 +791,15 @@
 <p><ins>下划线</ins></p>
 <p><mark>背景高亮</mark></p>
 <h3 id="2-4-超链接">2.4 超链接</h3>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">[链接名称](链接地址)</code></pre>
+<pre class="language-none"><code class="language-none">[链接名称](链接地址)</code></pre>
 <p>效果：</p>
 <p><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-cn">维基百科</a></p>
 <h3 id="2-5-注脚">2.5 注脚</h3>
 <p>在需要添加注脚的文字后加上脚注名字<code>[^注脚名字]</code>,称为加注。 然后在文本的任意位置(一般在最后)添加脚注，脚注前必须有对应的脚注名字。</p>
 <h3 id="2-6-插入图像">2.6 插入图像</h3>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">![图片Alt](图片地址 &quot;图片Title&quot;)</code></pre>
+<pre class="language-none"><code class="language-none">![图片Alt](图片地址 &quot;图片Title&quot;)</code></pre>
 <h3 id="2-7-引用">2.7 引用</h3>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">&gt; 引用内容  
+<pre class="language-none"><code class="language-none">&gt; 引用内容  
 &gt; &gt; 支持多级引用</code></pre>
 <p>效果：</p>
 <blockquote>
@@ -807,7 +807,7 @@
 </blockquote>
 <h3 id="2-8-表格">2.8 表格</h3>
 <p>第一行为表头，第二行分隔表头和主体部分，第三行开始每一行为一个表格行。列于列之间用管道符|隔开。原生方式的表格每一行的两边也要有管道符。第二行还可以为不同的列指定对齐方向。默认为左对齐，在-右边加上:就右对齐。<code>-</code>左对齐，<code>:-:</code> 中心对齐，<code>-:</code> 右对齐。</p>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">|学号|姓名|序号|
+<pre class="language-none"><code class="language-none">|学号|姓名|序号|
 |-|-|-|
 |小明明|男|5|
 |小红|女|79|
@@ -840,7 +840,7 @@
 </tbody>
 </table>
 <h3 id="2-9-分隔线">2.9 分隔线</h3>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">* * *
+<pre class="language-none"><code class="language-none">* * *
 ***
 *****
 - - -
@@ -851,7 +851,7 @@
 <ul>
 <li>行间公式</li>
 </ul>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">$$E&#x3D;mc^2\$\$
+<pre class="language-none"><code class="language-none">$$E&#x3D;mc^2\$\$
 # 注意：这里语法有问题，后面的$要加\进行转义，暂时没有找到原因和解决办法。
 # 能用就行，要个屁的自行车！
 # 2022年4月26日20:03:38，问题修复！
@@ -863,7 +863,7 @@ $$X=U\Sigma V^{T}$$</p>
 <ul>
 <li>行内公式</li>
 </ul>
-<pre class="language-markdown" data-language="markdown"><code class="language-markdown">$E&#x3D;mc^2$</code></pre>
+<pre class="language-none"><code class="language-none">$E&#x3D;mc^2$</code></pre>
 <p>效果：
 $E=mc^2$</p>
 <p>😂Markdown还有许多其他语法，可参考其他网上教程<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Markdown语法大全(超级版)](https://www.jianshu.com/p/ebe52d2d468f)">[2]</span></a></sup>。</p>
@@ -1504,7 +1504,7 @@ $E=mc^2$</p>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">12.6k</span>&nbsp;字
+                class="white-color">11.9k</span>&nbsp;字
             
             
             
