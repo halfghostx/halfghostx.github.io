@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-01T07:01:37.198Z</updated>
+  <updated>2022-05-01T08:33:42.566Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript速成</title>
+    <link href="http://example.com/2022/05/01/javascript-su-cheng/"/>
+    <id>http://example.com/2022/05/01/javascript-su-cheng/</id>
+    <published>2022-05-01T08:05:34.000Z</published>
+    <updated>2022-05-01T08:33:42.566Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>CSS速成</title>
