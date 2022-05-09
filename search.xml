@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Vim入门</title>
+      <link href="/2022/05/09/vim-ru-men/"/>
+      <url>/2022/05/09/vim-ru-men/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>vim简介</h1><p>以下来自百度百科，详戳：<a href="https://baike.baidu.com/item/Vim/60410?fr=aladdin">vim编辑器-百度百科</a></p><blockquote><p>Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。VIM是自由软件。Vim普遍被推崇为类Vi编辑器中最好的一个，事实上真正的劲敌来自Emacs的不同变体。1999 年Emacs被选为Linux world文本编辑分类的优胜者，Vim屈居第二。但在2000年2月Vim赢得了Slashdot Beanie的最佳开放源代码文本编辑器大奖，又将Emacs推至二线， 总的来看， Vim和Emacs在文本编辑方面都是非常优秀的。</p></blockquote><h1>windows系统安装vim</h1><p>点击<a href="https://www.vim.org/download.php">vim下载</a>页面下载gvim安装即可。</p><h1>vim的一些基本操作</h1><h2 id="创建或打开文件">创建或打开文件</h2><p>在Linux系统中，在终端输入命令<code>vim &lt;FILE_NAME&gt;</code>即可，windows选择打开方式为gvim即可。</p><h2 id="vim的三种模式">vim的三种模式</h2><h3 id="正常（普通）模式">正常（普通）模式</h3><p>该模式是默认模式，用于导航和简单的编辑。</p><h3 id="插入模式">插入模式</h3><p>该模式用于直接插入和修改文本。</p><h3 id="命令行模式">命令行模式</h3><p>该模式用于执行例如保存、退出等命令。</p><p>另外vim还有其他模式，如可视模式、选择模式和命令模式等等。</p><h2 id="不保存退出">不保存退出</h2><p>只需按下Esc键即可处于正常模式。然后输入<code>:q!</code>即可不保存退出编辑，即放弃所有的更改。也可以在普通模式下，直接输入<code>ZQ</code>命令也可以不保存退出。</p><h2 id="修改并保存">修改并保存</h2><p>在正常模式下，输入<code>i</code>来进入插入模式，这时在左下角可以看到<code>-- INSERT --</code>标志提示当前处于插入模式。更改文件，接着输入<code>:x!</code>或<code>:wq</code>来对文件进行保存并退出。</p><h2 id="vim中的基本导航">vim中的基本导航</h2><p>在正常模式下：</p><ol><li>设置显示行号：<code>:set number</code>，编辑器左侧即出现行号。</li><li>跳转到指定行：<code>:&lt;LINE_NUMBER&gt;</code>。</li><li>跳转到文件底部：<code>:$</code>。<code>gg</code>移动到文档顶部。</li><li>移动到一行的行尾：<code>$</code>。</li></ol><h2 id="vim中的基本编辑">vim中的基本编辑</h2><p>在正常模式下：</p><ol><li>删除某一行：跳转到改行，输入<code>dd</code>即可（delete）。</li><li>撤销：<code>:u</code>（undo）。</li><li>可视模式：<code>v</code>，左下角会出现<code>-- VISUAL --</code>，然后用移动光标来选择（光标移动使用<code>hjkl</code>键）。</li><li>选中高亮的部分，按下<code>y</code>（yank）即可复制文本到剪贴板。</li><li>输入<code>o</code>创建新的一行，这时会进入插入模式，然后按Esc退出到正常模式，然后按下<code>p</code>（paste）即可粘贴。</li></ol><h2 id="vim中的基本搜索">vim中的基本搜索</h2><p>在正常模式下：</p><ol><li>输入<code>:/&lt;SEARCH_KEYWORD&gt;</code>。</li><li>关键字出现多次，使用<code>n</code>（next）即可找到下一个匹配项。大写<code>N</code>反向搜索。</li></ol><h2 id="vim中的分割模式">vim中的分割模式</h2><p>分割模式，即split模式。</p><p>正常模式下：</p><ol><li>输入：<code>:split FileName.extension_name</code>即可将编辑窗口水平划分为两部分。</li><li>窗口切换：<code>&lt;ctrl&gt;+ww</code>。</li><li>垂直分割：<code>:vsplit &lt;FileName&gt;</code>。</li></ol><h1>vim cheat sheet</h1><p>网上有很多vim cheat sheets，意即小抄或备忘单。下面列出两个：</p><ol><li><a href="https://vimsheet.com/">A Great Vim Cheat Sheet</a>。</li><li><a href="https://vim.rtorr.com/">Vim Cheat Sheet</a>。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vim </tag>
+            
+            <tag> 编辑器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Golden Slumber</title>
       <link href="/2022/05/06/golden-slumber/"/>
       <url>/2022/05/06/golden-slumber/</url>
