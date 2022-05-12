@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-09T07:43:12.924Z</updated>
+  <updated>2022-05-12T09:56:20.832Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>钴诗词</title>
+    <link href="http://example.com/2022/05/12/gu-shi-ci/"/>
+    <id>http://example.com/2022/05/12/gu-shi-ci/</id>
+    <published>2022-05-12T09:53:10.000Z</published>
+    <updated>2022-05-12T09:56:20.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="读书" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="写作" scheme="http://example.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
+    <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>略论口水诗或打油诗的写作技巧</title>
+    <link href="http://example.com/2022/05/12/lue-lun-kou-shui-shi-huo-da-you-shi-de-xie-zuo-ji-qiao/"/>
+    <id>http://example.com/2022/05/12/lue-lun-kou-shui-shi-huo-da-you-shi-de-xie-zuo-ji-qiao/</id>
+    <published>2022-05-12T09:49:17.000Z</published>
+    <updated>2022-05-12T09:52:16.878Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="读书" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="写作" scheme="http://example.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
+    <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>Vim入门</title>
@@ -127,7 +185,7 @@
     <link href="http://example.com/2022/05/03/suo-sui-de-qu-ji/"/>
     <id>http://example.com/2022/05/03/suo-sui-de-qu-ji/</id>
     <published>2022-05-03T01:08:32.000Z</published>
-    <updated>2022-05-03T01:13:31.516Z</updated>
+    <updated>2022-05-12T09:48:15.340Z</updated>
     
     
       
@@ -428,7 +486,7 @@
     <link href="http://example.com/2022/04/26/le-te-la-wu-ru-shi-shuo/"/>
     <id>http://example.com/2022/04/26/le-te-la-wu-ru-shi-shuo/</id>
     <published>2022-04-26T00:45:06.000Z</published>
-    <updated>2022-05-12T00:52:29.333Z</updated>
+    <updated>2022-05-12T09:57:49.536Z</updated>
     
     
       
@@ -505,62 +563,6 @@
     <category term="闲书" scheme="http://example.com/tags/%E9%97%B2%E4%B9%A6/"/>
     
     <category term="书单" scheme="http://example.com/tags/%E4%B9%A6%E5%8D%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown入门教程</title>
-    <link href="http://example.com/2022/04/24/markdown-ru-men-jiao-cheng/"/>
-    <id>http://example.com/2022/04/24/markdown-ru-men-jiao-cheng/</id>
-    <published>2022-04-24T10:22:00.000Z</published>
-    <updated>2022-05-01T06:52:20.240Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="计算机" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-    
-    
-    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
-    
-    <category term="入门教程" scheme="http://example.com/tags/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="文档编辑" scheme="http://example.com/tags/%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>王小波《一只特立独行的猪》摘录</title>
-    <link href="http://example.com/2022/04/24/wang-xiao-bo-yi-zhi-te-li-du-xing-de-zhu-zhai-lu/"/>
-    <id>http://example.com/2022/04/24/wang-xiao-bo-yi-zhi-te-li-du-xing-de-zhu-zhai-lu/</id>
-    <published>2022-04-24T10:22:00.000Z</published>
-    <updated>2022-04-28T10:45:42.110Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="读书" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-    <category term="摘要" scheme="http://example.com/tags/%E6%91%98%E8%A6%81/"/>
     
   </entry>
   
