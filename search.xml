@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>数字信号处理</title>
+      <link href="/2022/05/22/shu-zi-xin-hao-chu-li/"/>
+      <url>/2022/05/22/shu-zi-xin-hao-chu-li/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>学习书籍</h1><ol><li>DigiDigital Signal Processing with Matlab Examples, Volume 1(Jose Maria Giron-Sierra)</li><li>DigiDigital Signal Processing with Matlab Examples, Volume 2(Jose Maria Giron-Sierra)</li><li>DigiDigital Signal Processing with Matlab Examples, Volume 3(Jose Maria Giron-Sierra)</li></ol><h1>使用软件</h1><ol><li>Matlab</li></ol><h1>参考资源</h1><ol><li>书籍</li><li>网站</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 信号与信息处理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 信号处理 </tag>
+            
+            <tag> 信息处理 </tag>
+            
+            <tag> 数字信号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java学习笔记-4</title>
+      <link href="/2022/05/22/java-xue-xi-bi-ji-4/"/>
+      <url>/2022/05/22/java-xue-xi-bi-ji-4/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>流程控制</h1><ol><li>用户交互Scanner。</li><li>顺序结构。</li><li>选择结构。</li><li>循环结构。</li><li>break&amp;continue。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>人、狗和星星</title>
       <link href="/2022/05/20/ren-gou-he-xing-xing/"/>
       <url>/2022/05/20/ren-gou-he-xing-xing/</url>
@@ -539,7 +595,7 @@
       <link href="/2022/04/27/java-xue-xi-bi-ji-3/"/>
       <url>/2022/04/27/java-xue-xi-bi-ji-3/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>基础</h1><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span><span class="token punctuation">&#123;</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>基础</h1><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span><span class="token punctuation">&#123;</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></code></pre><h1>基础语法</h1><ol><li>注释、标识符、关键字。</li><li>数据类型。</li><li>类型转换。</li><li>变量、常量。</li><li>运算符。</li><li>包机制、JavaDoc。</li></ol><ul><li>包机制</li></ul><p><strong>本质</strong>：就是一个文件夹。<strong>包语句的语法格式</strong>：</p><pre class="language-Java" data-language="Java"><code class="language-Java">package pkg1[.pkg2[.pkg3...]];</code></pre><p>一般利用公司域名倒置作为包名。e.g.<code>com.baidu.www</code>。</p><p><strong>导入包</strong>：使用<code>import</code>语句。</p><pre class="language-Java" data-language="Java"><code class="language-Java">import package1[.package2...].(classname|*);</code></pre><ul><li>JavaDoc</li></ul><p>用来生成自己API文档。</p><p><strong>参数信息</strong>：</p><pre class="language-Java" data-language="Java"><code class="language-Java">&#x2F;&#x2F; part 1. 加在类里面的类的注释&#x2F;** * @author Wangdong * @version 1.0 * @since 1.8 *&#x2F;&#x2F;&#x2F; 下面是对应的类&#x2F;&#x2F; part 2. 加在方法里面的方法的注释&#x2F;** * @author Wangdong * @param name * @return * @throws Exception *&#x2F;&#x2F;&#x2F; 下面是对应的方法</code></pre><p><strong>CMD命令</strong>：<code>javadoc -encoding UTF-8 -charset UTF-8 Doc.java</code>。在目录下回生成许多文件。其中index.html表示首页。</p><p><strong>利用IDEA生成JavaDoc文档</strong>。</p>]]></content>
       
       
       <categories>

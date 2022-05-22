@@ -661,14 +661,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-05-01
+                    2022-05-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    20
+                    226
                 </div>
                 
 
@@ -704,6 +704,47 @@
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">&#125;</span>
 <span class="token punctuation">&#125;</span></code></pre>
+<h1>基础语法</h1>
+<ol>
+<li>注释、标识符、关键字。</li>
+<li>数据类型。</li>
+<li>类型转换。</li>
+<li>变量、常量。</li>
+<li>运算符。</li>
+<li>包机制、JavaDoc。</li>
+</ol>
+<ul>
+<li>包机制</li>
+</ul>
+<p><strong>本质</strong>：就是一个文件夹。
+<strong>包语句的语法格式</strong>：</p>
+<pre class="language-Java" data-language="Java"><code class="language-Java">package pkg1[.pkg2[.pkg3...]];</code></pre>
+<p>一般利用公司域名倒置作为包名。e.g.<code>com.baidu.www</code>。</p>
+<p><strong>导入包</strong>：使用<code>import</code>语句。</p>
+<pre class="language-Java" data-language="Java"><code class="language-Java">import package1[.package2...].(classname|*);</code></pre>
+<ul>
+<li>JavaDoc</li>
+</ul>
+<p>用来生成自己API文档。</p>
+<p><strong>参数信息</strong>：</p>
+<pre class="language-Java" data-language="Java"><code class="language-Java">&#x2F;&#x2F; part 1. 加在类里面的类的注释
+&#x2F;**
+ * @author Wangdong
+ * @version 1.0
+ * @since 1.8
+ *&#x2F;
+&#x2F;&#x2F; 下面是对应的类
+&#x2F;&#x2F; part 2. 加在方法里面的方法的注释
+&#x2F;**
+ * @author Wangdong
+ * @param name
+ * @return
+ * @throws Exception
+ *&#x2F;
+&#x2F;&#x2F; 下面是对应的方法</code></pre>
+<p><strong>CMD命令</strong>：<code>javadoc -encoding UTF-8 -charset UTF-8 Doc.java</code>。在目录下回生成许多文件。其中index.html表示首页。</p>
+<p><strong>利用IDEA生成JavaDoc文档</strong>。</p>
+
                 
             </div>
             <hr/>
@@ -1335,7 +1376,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">27k</span>&nbsp;字
+                class="white-color">27.3k</span>&nbsp;字
             
             
             
