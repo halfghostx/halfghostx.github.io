@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-25T11:49:40.339Z</updated>
+  <updated>2022-07-26T07:38:50.420Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>概率密度估计方法</title>
+    <link href="http://example.com/2022/07/25/gai-lu-mi-du-gu-ji-fang-fa/"/>
+    <id>http://example.com/2022/07/25/gai-lu-mi-du-gu-ji-fang-fa/</id>
+    <published>2022-07-25T02:25:50.000Z</published>
+    <updated>2022-07-26T07:38:50.420Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="数学" scheme="http://example.com/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="概率与统计" scheme="http://example.com/tags/%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>三行诗</title>
@@ -546,33 +573,6 @@
     <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
     
     <category term="HTML" scheme="http://example.com/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>中岛敦《山月记》摘录</title>
-    <link href="http://example.com/2022/04/29/zhong-dao-dun-shan-yue-ji-zhai-lu/"/>
-    <id>http://example.com/2022/04/29/zhong-dao-dun-shan-yue-ji-zhai-lu/</id>
-    <published>2022-04-29T10:54:08.000Z</published>
-    <updated>2022-04-29T11:37:50.099Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="读书" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-    <category term="摘要" scheme="http://example.com/tags/%E6%91%98%E8%A6%81/"/>
     
   </entry>
   
